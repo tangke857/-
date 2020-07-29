@@ -1,0 +1,76 @@
+.time{
+    width: 100%;height: 
+    574px;background: #f7f7f7;
+     margin-top: 68px;
+}
+.time-title{
+    width: 100px;
+    height: 27px; 
+    float: left;
+    margin-top: 20px;
+}
+.time-content{
+    width:950px;
+    height: 574px;
+  
+    margin: 0 auto;
+}
+.time-title a{
+    color: #494949;
+  font-size: 24px;
+ text-decoration: none;
+  height: 27px; 
+}
+.time-more{
+    width: 300px;
+    height: 22px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.time-more h2{
+color: #007722;
+font-size: 15px;
+display: inline-block;
+margin-top: 26px;
+margin-left: 10px;
+font: 15px Arial, Helvetica, sans-serif;
+}
+.time-imgs{
+    width:100px;
+    height:141px;
+    margin-left: 60px;
+    display: inline-block;
+}
+.time-imgs-title{
+    width: 95px;
+    height: 70px;
+    margin-left: 68px;
+    text-align: center;
+   font-size: 13px;
+   margin-top: 10px;
+}
+.time-imgs1{
+    width: 830px; height: 141px; display: flex; flex-wrap: wrap;margin-top: 49px;margin-left: 50px;
+}
+.time-imgs-title a{
+    text-decoration: none;
+   color: #333333;
+}
+.time-imgs-title span{
+    color: #999999;
+    font-size: 12px;
+    margin-top: 4px;
+    display: inline-block;
+    margin-left: 32px;
+}
+.time-imgs2{
+    width: 100px;
+    height: 70px;
+    margin-left: 79px;
+    text-align: center;
+   font-size: 13px;
+   margin-top: 10px;
+}
+.time-imgs-title a:hover{
+    background: #37a;
+}

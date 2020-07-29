@@ -1,0 +1,96 @@
+.hotnew{
+    width: 950px;
+     height: 524px; 
+     
+     margin: 0 auto;
+}
+.hotnew-left{
+    width:360px; 
+    height: 436px; 
+     float: left;
+     color: #97d9a1;
+     font-size: 15px;
+     flex-wrap: wrap;
+     display: flex;
+     
+}
+.title-spans{
+    display: inline-block; height: 13.6px;width: 170px; color: #999999;font-size: 12px;
+}
+.title-spans a{
+    text-decoration: none;
+    color: #3377aa;}
+.title-spans a:hover{
+    color: white;
+}
+.hotnew a{
+ font-size: 12px;
+}
+.hotnew-left-imgs{
+    width: 170px;
+    height: 170px; 
+    margin-left: 10px;
+   
+}
+.hotnew-center{
+    width: 275px;
+    height: 396px; 
+    float: left;
+    margin-left: 35px;
+    font-size: 12px;
+
+}
+.hotnew-center li a{
+    color: #3377aa;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 15px;
+    display: inline-block;
+
+}
+.hotnew-center a:hover{
+    background: #37a;
+    color: white;
+}
+.hotnew-right{
+    width: 275px;
+    height: 396px;
+    margin-left: 5px;
+     float: right;
+}
+.hotnew-ad{
+    width:250px;
+    height:125px;
+    margin-left: 10px;
+}
+.hotnew-topic{
+    width: 265px;
+    height: 323px;
+    color: #3377aa;
+}
+.hotnew-topic a{
+    color: #3377aa;
+    display: inline-block;
+}
+.hotnew-topic a:hover{
+    color: white;
+    background: #37a;
+}
+.hotpic-show{
+    color:#3377aa ;
+}
+.hotpic-show-spans{
+    color: #999999;
+    display: inline-block;
+    
+}
+.hotpic-showli a{
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 13px;
+}
+.hotpic-showli{
+    font-size: 12px;
+    display: inline-block;
+
+}

@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+    background: #f2f2f7;
+}
+/* 主体 */
+.content{
+    width: 650px;
+    height: 8500px;
+}
+/* 书本详情 */
+.c-top{
+    width: 650px;
+    height: 124px;
+    background: white;
+    margin-bottom:15px; 
+}
+.c-top h3{
+    padding: 10px 0 0 20px;
+}
+.c-xinpin{
+    width: 650px;
+    height: 45px;
+    margin: 18px 0 0 0;
+}
+.c-xinpin-left{
+    width: 60%;
+    height: 45px;
+    float: left;
+}
+.c-xinpin-left p{
+    padding-left: 20px;
+    font-size: 10px;
+}
+.c-xinpin-right{
+    width: 40%;
+    height: 45px;
+    font-size: 12px;
+    float: left;
+}
+.c-xinpin-right img{
+    padding:7px 0 0 170px; 
+    float: left;
+}
+.c-xinpin-right p{
+    padding-top: 9px;
+}
+.x-con{
+    width: 65px;
+    font-size: 15px;
+    background: #f97927;
+    color: white;
+    float: left;
+    margin-left:20px;
+    text-align: center;
+}
+/* 人物介绍 */
+.person{
+    width: 650px;
+    height: 189px;
+    background: white;
+    margin-bottom:15px; 
+}
+.p-top{
+    width: 650px;
+    height: 132px;
+    border-bottom:1px solid #d5d5d5; 
+}
+.p-top-left{
+    width: 15%;
+    height: 132px;
+    float: left;
+}
+.p-top-left img{
+    width: 70px;
+    height: 70px;
+    border-radius:50%; 
+    margin: 20px 0 0 20px;
+}
+.p-top-right{
+    width: 85%;
+    height: 132px;
+    float: left;
+}
+.p-top-right h5{
+    padding: 15px 0 0 5px;
+    font-size: 15px;
+}
+.p-top-right p{
+    font-size: 13px;
+    padding: 5px 0 0 8px;
+    color: #8b8b8b;
+}
+.p-bottom{
+    width: 650px;
+    height: 30px;
+    padding: 15px 0;
+}
+.p-bottom img{
+    width: 30px;
+    height: 30px;
+    padding-left:25px; 
+    float: left;
+}
+.p-bottom p{
+    display: inline-block;
+    padding: 5px 0 0 10px;
+    font-size: 12px;
+}
+.p-bottom span{
+    font-size: 12px;
+    padding-left:450px;
+    color: #8b8b8b; 
+}
+/* 简介 */
+.c-image{
+    width: 650px;
+    height: 8000px;
+    margin-top: 20px;
+    background: white;
+}
+.c-image p{
+    padding: 15px 0 10px 20px;
+    font-size: 15px;
+}
+.c-image img{
+    width: 650px;
+    margin-top:-5px; 
+}

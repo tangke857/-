@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>豆瓣电影</title>
+		<link rel="stylesheet" type="text/css" href="css/movie.css" />
+		<link rel="shortcut icon" href="img/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		
+		<script>
+			$(function(){
+			        /***1**/
+			$("#xahover").on("mouseover",function() {
+			   var ln_items=document.getElementById("xywTOPxiazai");
+			   ln_items.style.display="block"; 
+			   $("#xahover").on("mouseleave",function() {
+			       ln_items.style.display="none"; 
+			       });                   
+			   });    
+			});
+		</script>
+		<!--全页--->
+		<div class="xywmain">
+			<div class="xywtop">
+				<ul class="xywdaohang1">
+					<!--左边--->
+					<li class="">
+						<a class="lefta" href="" target="_blank">豆瓣</a>
+					</li>
+					<li class="">
+						<a class="lefta" href="" target="_blank">读书</a>
+					</li>
+					<li class="on">
+						<a class="lefta" href="" target="_blank">电影</a>
+					</li>
+					<li class="">
+						<a class="lefta" href="" target="_blank">音乐</a>
+					</li>
+					<li class="">
+						<a class="lefta" href="" target="_blank">同城</a>
+					</li>
+					<li class="">
+						<a class="lefta" href="" target="_blank">小组</a>
+					</li>
+					<li class="">
+						<a class="lefta" href="" target="_blank">阅读</a>
+					</li>
+					<li class="">
+						<a class="lefta" href="" target="_blank">FM</a>
+					</li>
+					<li class="">
+						<a class="lefta" href="" target="_blank">时间</a>
+					</li>
+					<li class="">
+						<a class="lefta" href="" target="_blank">豆品</a>
+					</li>
+					<!--右边--->
+					<li><a class="righta" style="margin-right: 12px;" href="#">肖焱午的账号<i class="fa fa-angle-down"></i></a></li>
+					<li><a class="righta" href="#">豆邮(1)</a></li>
+					<li><a class="righta" href="#">提醒</a></li>
+					<li><a id="xahover" class="righta" style="padding: 0px 8px;position: relative;" href="#">下载豆瓣客户端</a>
+					<div id="xywTOPxiazai">
+						<p class="ln-app_title">豆瓣</p>
+						<p class="ln-qrcode"></p>
+						<div class="ln-download">
+						    <a href="">iPhone</a>
+						    <span>.</span>
+						    <a href="">Android</a>
+						</div>
+					</div>
+					</li>
+				</ul>
+				
+			</div>
+			<div class="xywsousuo">
+				<div class="sousuo1">
+					<div class="sousuo2">
+
+						<img style="cursor: pointer;float: left;margin-top: 13px;position: absolute;" src="jpgall/lg_movie_a12_2.png">
+
+						<div class="sousuo2-1">
+							<div class="select"><input id="selecti" size="22" style="font-size: 13px;" maxlength="60" placeholder="搜索电影、电视剧、综艺、影人"
+								 value="" autocomplete="off">
+							</div>
+							<div class="selects"><input type="submit" value="搜索"></div>
+						</div>
+					</div>
+				</div>
+				<div class="daohang2">
+					<div class="daohang2-1">
+						<div class="daohang2-1-1">
+							<ul>
+								<li><a href="#">我看</a>
+								</li>
+								<li><a href="#">影讯&amp;购票</a>
+								</li>
+								<li><a href="#">选电影</a>
+								</li>
+								<li><a href="#">电视剧</a>
+								</li>
+								<li><a href="#">排行榜</a>
+								</li>
+								<li><a href="#">分类</a>
+								</li>
+								<li><a href="#">影评</a>
+								</li>
+								<li><a href="#">2019年度榜单</a>
+								</li>
+								<li><a href="#">2019书影音报告</a>
+								</li>
+							</ul>
+						</div>
+						<a href="#" class="movieannual"></a>
+					</div>
+				</div>
+
+			</div>
+			<div class="xywcenter">
+				<div class="xywarticleall">
+					<div class="xywarticleL">
+						<div id="zhengzai" class="s">
+							<div class="h2">
+								正在热映<a class="fanyet" href="#">全部正在热映<i class="fa fa-angle-double-right"></i></a>
+								<a class="fanyet" href="#">即将上映<i class="fa fa-angle-double-right"></i></a>
+
+
+								<span class="swiper-button-next-fanyetnext" href="#"><i style="color: #3377AA;" class="fa fa-lg fa-chevron-circle-right"></i></span>
+								<span class="swiper-button-prev-fanyetblack" href="#"><i style="color: #3377AA;" class="fa fa-lg fa-chevron-circle-left"></i></span>
+								<span></span><span></span><span></span>
+							</div>
+							<div id="ulsp">
+								<ul style="">
+									<div class="swiper-containerM">
+									<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<li>
+										<img src="jpgall/p2614204949.jpg" >
+										<p style="width: 115px;height: 22px;font-size: 14px;cursor: pointer;
+										margin-top: 10px;text-align: center;color: #333;">第一次的离别</p>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gainsboro;" class="fa fa-star"></i>&nbsp;&nbsp;7.2
+										<div style="width: 90px;height: 24px;margin: 0px auto;
+										background-color: #268dcd;color: white;vertical-align: middle;cursor: pointer;
+										display: flex;align-items: center;justify-content: center;margin-top: 10px;
+										border-radius: 2px;">
+										选座购票
+										</div>
+										</li>
+										<li>
+											<img src="./jpgall/p2614234587.jpg" >
+											<p style="width: 115px;height: 22px;font-size: 14px;cursor: pointer;
+											margin-top: 10px;text-align: center;color: #333;">璀璨薪火3D</p>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gainsboro;" class="fa fa-star"></i>&nbsp;&nbsp;7.5
+											<div style="width: 90px;height: 24px;margin: 0px auto;
+											background-color: #268dcd;color: white;vertical-align: middle;cursor: pointer;
+											display: flex;align-items: center;justify-content: center;margin-top: 10px;
+											border-radius: 2px;">
+											选座购票
+											</div>
+										</li>
+										<li>
+											<img src="jpgall/p2380677316.jpg" >
+											<p style="width: 115px;height: 22px;font-size: 14px;cursor: pointer;
+											margin-top: 10px;text-align: center;color: #333;">湄公河行动</p>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gainsboro;" class="fa fa-star"></i>&nbsp;&nbsp;8.0
+											<div style="width: 90px;height: 24px;margin: 0px auto;
+											background-color: #268dcd;color: white;vertical-align: middle;cursor: pointer;
+											display: flex;align-items: center;justify-content: center;margin-top: 10px;
+											border-radius: 2px;">
+											选座购票
+											</div>
+										</li>
+										<li>
+											<img src="jpgall/p2555295759.jpg" >
+											<p style="width: 115px;height: 22px;font-size: 14px;cursor: pointer;
+											margin-top: 10px;text-align: center;color: #333;">何以为家</p>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star-half-o"></i>&nbsp;&nbsp;9.1
+											<div style="width: 90px;height: 24px;margin: 0px auto;
+											background-color: #268dcd;color: white;vertical-align: middle;cursor: pointer;
+											display: flex;align-items: center;justify-content: center;margin-top: 10px;
+											border-radius: 2px;">
+											选座购票
+											</div>
+										</li>
+										<li>
+											<img src="jpgall/p2432493858.jpg" >
+											<p style="width: 115px;height: 22px;font-size: 14px;cursor: pointer;
+											margin-top: 10px;text-align: center;color: #333;">一条狗的使命</p>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star-half-full"></i>
+											<i style="color: gainsboro;" class="fa fa-star"></i>&nbsp;&nbsp;7.7
+											<div style="width: 90px;height: 24px;margin: 0px auto;
+											background-color: #268dcd;color: white;vertical-align: middle;cursor: pointer;
+											display: flex;align-items: center;justify-content: center;margin-top: 10px;
+											border-radius: 2px;">
+											选座购票
+											</div>
+										</li>
+									</div>
+									<div class="swiper-slide">
+									<li>
+										<img src="jpgall/p2225291257.jpg" >
+										<p style="width: 115px;height: 22px;font-size: 14px;cursor: pointer;
+										margin-top: 10px;text-align: center;color: #333;">狼图腾</p>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star-half-full"></i>
+										<i style="color: gainsboro;" class="fa fa-star"></i>&nbsp;&nbsp;6.9
+										<div style="width: 90px;height: 24px;margin: 0px auto;
+										background-color: #268dcd;color: white;vertical-align: middle;cursor: pointer;
+										display: flex;align-items: center;justify-content: center;margin-top: 10px;
+										border-radius: 2px;">
+										选座购票
+										</div>
+									</li>
+									<li>
+										<img src="jpgall/p2284620292.jpg" >
+										<p style="width: 115px;height: 22px;font-size: 14px;cursor: pointer;
+										margin-top: 10px;text-align: center;color: #333;">寻龙诀</p>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gainsboro;" class="fa fa-star"></i>&nbsp;&nbsp;7.4
+										<div style="width: 90px;height: 24px;margin: 0px auto;
+										background-color: #268dcd;color: white;vertical-align: middle;cursor: pointer;
+										display: flex;align-items: center;justify-content: center;margin-top: 10px;
+										border-radius: 2px;">
+										选座购票
+										</div>
+									</li>
+									<li>
+										<img src="jpgall/p2614500649.jpg" >
+										<p style="width: 115px;height: 22px;font-size: 14px;cursor: pointer;
+										margin-top: 10px;text-align: center;color: #333;">疯狂动物城</p>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star-half-full"></i>&nbsp;&nbsp;9.2
+										<div style="width: 90px;height: 24px;margin: 0px auto;
+										background-color: #268dcd;color: white;vertical-align: middle;cursor: pointer;
+										display: flex;align-items: center;justify-content: center;margin-top: 10px;
+										border-radius: 2px;">
+										选座购票
+										</div>
+									</li>
+									<li>
+										<img src="jpgall/p2361744534.jpg" >
+										<p style="width: 115px;height: 22px;font-size: 14px;cursor: pointer;
+										margin-top: 10px;text-align: center;color: #333;">大鱼海棠</p>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gainsboro;" class="fa fa-star"></i>&nbsp;&nbsp;7.4
+										<div style="width: 90px;height: 24px;margin: 0px auto;
+										background-color: #268dcd;color: white;vertical-align: middle;cursor: pointer;
+										display: flex;align-items: center;justify-content: center;margin-top: 10px;
+										border-radius: 2px;">
+										选座购票
+										</div>
+									</li>
+									<li>
+										<img src="jpgall/p2257944916.jpg" >
+										<p style="width: 115px;height: 22px;font-size: 14px;cursor: pointer;
+										margin-top: 10px;text-align: center;color: #333;">捉妖记</p>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star"></i>
+										<i style="color: gold;" class="fa fa-star-half-full"></i>
+										<i style="color: gainsboro;" class="fa fa-star"></i>&nbsp;&nbsp;6.7
+										<div style="width: 90px;height: 24px;margin: 0px auto;
+										background-color: #268dcd;color: white;vertical-align: middle;cursor: pointer;
+										display: flex;align-items: center;justify-content: center;margin-top: 10px;
+										border-radius: 2px;">
+										选座购票
+										</div>
+									</li>
+									</div>
+									</div>
+									</div>
+								</ul>
+							</div>
+						</div>
+						<div id="zuijinmovie">
+							<div class="zuijinmovie-hd">
+								<div class="zuijinmovie-hd-1">
+									<div class="zuijinmovie-hd-1-1">
+										最近热门电影
+									</div>
+									<div class="zuijinmovie-hd-1-ul">
+										热门
+										<div class="zuijinmovie-hd-1-label">
+											<label><a href="#">日本</a></label>
+											<label><a href="#">韩国</a></label>
+											<label><a href="#">欧美</a></label>
+											<label><a href="#">华语</a></label>
+											<label><a href="#">冷门佳片</a></label>
+											<label><a href="#">豆瓣高分</a></label>
+											<label><a style="margin-left: 12px;" href="#">最新</a></label>
+										</div>
+									</div>
+									<a href="#">更多<i class="fa fa-angle-double-right"></i></a>
+								</div>
+							</div>
+							<div class="swiper-container-center">
+								<div class="swiper-wrapper">
+									<div style="width: 700px;height: 440px;white-space: normal;" class="swiper-slide">
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2581064876.jpg" >
+										<p class="moviep">希望沟壑&nbsp;&nbsp;<span>7.7</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2567977903.jpg" >
+										<p class="moviep">叔·叔&nbsp;&nbsp;<span>7.6</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2563038544.jpg" >
+										<p class="moviep">午夜0时的吻&nbsp;&nbsp;<span>5.3</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2575400017.jpg" >
+										<p class="moviep">唐顿庄园&nbsp;&nbsp;<span>8.1</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2611318255.jpg" >
+										<p class="moviep">霍家拳之铁壁娇<br>娃&nbsp;&nbsp;<span>6.1</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2571760178.jpg" >
+										<p class="moviep">婚姻故事&nbsp;&nbsp;<span>8.6</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2589768807.jpg" >
+										<p class="moviep">逃离比勒陀利亚&nbsp;&nbsp;<span>7.6</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2573582192.jpg" >
+										<p class="moviep">决战中途岛&nbsp;&nbsp;<span>7.7</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2588341885.jpg" >
+										<p class="moviep">女鬼桥&nbsp;&nbsp;<span>6.2</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2556419282.jpg" >
+										<p class="moviep">火口的两人&nbsp;&nbsp;<span>7.1</span></p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="zuijindianshiju">
+							<div class="zuijinmovie-hd">
+								<div class="zuijinmovie-hd-1">
+									<div class="zuijinmovie-hd-1-1">
+										最近热门电视剧
+									</div>
+									<div style="margin-left: 10px;" class="zuijinmovie-hd-1-ul">
+										热门
+										<div class="zuijinmovie-hd-1-label">
+											
+										<label><a href="#">纪录片</a></label>
+										<label><a href="#">日本动画</a></label>
+										<label><a href="#">韩剧</a></label>
+										<label><a href="#">日剧</a></label>
+										<label><a href="#">美剧</a></label>
+										<label><a href="#">综艺</a></label>
+										<label><a style="margin-left: 12px;" href="#">国产剧</a></label>
+										
+										</div>
+									</div>
+									<a href="#">更多<i class="fa fa-angle-double-right"></i></a>
+								</div>
+							</div>
+							<div class="swiper-container-center">
+								<div class="swiper-wrapper">
+									<div style="width: 700px;height: 440px;white-space: normal;" class="swiper-slide">
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2603121645.jpg" >
+										<p class="moviep">我才不要和你做朋<br>友呢&nbsp;&nbsp;<span>8.2</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2610559445.jpg" >
+										<p class="moviep">机动搜查队404&nbsp;&nbsp;<span>7.9</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2563766934.jpg" >
+										<p class="moviep">陈情令&nbsp;&nbsp;<span>7.7</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2609414052.jpg" >
+										<p class="moviep">我们爱过吗&nbsp;&nbsp;<span>8.2</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2595064425.jpg" >
+										<p class="moviep">正常人&nbsp;&nbsp;<span>8.7</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2579312073.jpg" >
+										<p class="moviep">天宝伏妖录&nbsp;&nbsp;<span>7.7</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2606985287.jpg" >
+										<p class="moviep">便利店新星&nbsp;&nbsp;<span>7.3</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2599451634.jpg" >
+										<p class="moviep">什刹海&nbsp;&nbsp;<span>6.2</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2611529667.jpg" >
+										<p class="moviep">小娘惹&nbsp;&nbsp;<span>5.0</span></p>
+										</div>
+										<div style="width: 115px;height: 210px;
+										margin: 0px 25px 10px 0px;float: left;" id="zuijinmovie-item">
+										<img style="width: 115px;height: 160px;cursor: pointer;" src="jpgall/p2593664928.jpg" >
+										<p class="moviep">龙岭迷窟&nbsp;&nbsp;<span>8.3</span></p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="tuijian">
+							<div class="swiper-container">
+							<div class="h2">
+								热门推荐
+								
+								<span class="swiper-button-next-fanyetnext" href="#"><i style="color: #3377AA;" class="fa fa-lg fa-chevron-circle-right"></i></span>
+								
+								<span class="swiper-button-prev-fanyetblack" href="#"><i style="color: #3377AA;" class="fa fa-lg fa-chevron-circle-left"></i></span>
+								<span></span><span></span><span></span>
+							</div>
+							
+								<div class="swiper-wrapper">
+									
+								
+								<div class="swiper-slide">
+									<img style="width: 350px;height: 240px;float: left;" src="jpgall/186979b7fc3d7cb.jpg" >
+									<div class="tujianR">
+										<div class="tujianR-hd">
+											年度韩影《从邪恶中拯救我》预告
+										</div>
+										<div class="tujianR-hd-1">
+											黄政民&李政宰《新世界》后再次合作！8月5日韩国上映！
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<img style="width: 350px;height: 240px;float: left;" src="jpgall/f99146d0962489c.jpg" >
+									<div class="tujianR">
+										<div class="tujianR-hd">
+											神剧预定！HBO新剧《本色》预告
+										</div>
+										<div class="tujianR-hd-1">
+											《请以你的名字呼唤我》导演卢卡·瓜达尼诺执导LGBTQ新剧，9月播出！
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<img style="width: 350px;height: 240px;float: left;" src="jpgall/798e4c9b74dcd06.jpg" >
+									<div class="tujianR">
+										<div class="tujianR-hd">
+											科幻神作改编美剧《基地》预告
+										</div>
+										<div class="tujianR-hd-1">
+											李·佩斯、杰瑞德·哈里斯主演，2021年上线！
+										</div>
+									</div>
+								</div>
+								<div  class="swiper-slide">
+									<img style="width: 350px;height: 240px;float: left;" src="jpgall/5755e285460fce4.jpg" >
+									<div class="tujianR">
+										<div class="tujianR-hd">
+											年度韩剧《秘密森林2》预告
+										</div>
+										<div class="tujianR-hd-1">
+											曹承佑、裴斗娜回归主演！8月播出！
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<img style="width: 350px;height: 240px;float: left;" src="jpgall/c6c3a21d58155b1.jpg" >
+									<div class="tujianR">
+										<div class="tujianR-hd">
+											堺雅人主演《半泽直树2》预告
+										</div>
+										<div class="tujianR-hd-1">
+											定档7月19日播出！
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						<div id="yingping">
+							<div class="h2">
+								最受欢迎的评语<a class="fanyet" href="#">更多热门影评<i class="fa fa-angle-double-right"></i></a>
+								<a class="fanyet" href="#">新片影评<i class="fa fa-angle-double-right"></i></a>
+
+							</div>
+							<div class="yingpingT">
+								<img width="68px" height="98.96px" style="position: absolute;cursor: pointer;" src="jpgall/p2588341885.jpg">
+								<div class="yingpingT-bd">
+									<div class="yingpingT-bd-h3">
+										<a href="#">女鬼桥的四条时间线</a>
+									</div>
+									<div class="yingpingT-bd-meta">
+										<a href="#">青鱼</a> 评论
+										<a href="#">《女鬼桥》</a>
+
+										<span>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gainsboro;" class="fa fa-star"></i>
+										</span>
+									</div>
+									<div class="yingpingT-bd-text">
+										已经很久没看过这么恐怖又这么烧脑高能的恐怖片了，上一部是温子仁的《潜伏》系列，在我这个爱恐怖片如命的人眼里，《潜伏》一直排在我心中恐怖片的第一！后面虽然又看过很多恐怖片，但是要么节奏太慢不够吓人，...
+										<a href="#">(全文)</a>
+									</div>
+								</div>
+							</div>
+							<div class="yingpingT">
+								<img width="68px" height="98.96px" style="position: absolute;cursor: pointer;" src="jpgall/p1563566300.jpg">
+								<div class="yingpingT-bd">
+									<div class="yingpingT-bd-h3">
+										<a href="#">《蝙蝠侠：侠影之谜》中你可能错过的隐藏细节</a>
+									</div>
+									<div class="yingpingT-bd-meta">
+										<a href="#">彩蛋君KL</a> 评论
+										<a href="#">《蝙蝠侠：侠影之谜》</a>
+
+										<span>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gainsboro;" class="fa fa-star"></i>
+										</span>
+									</div>
+									<div class="yingpingT-bd-text">
+										克里斯托弗·诺兰执导的黑暗骑士三部曲第一部《蝙蝠侠：侠影之谜》，是影史上最具深度的超级英雄起源电影之一。本文将带大家浅谈影片主题，找出电影内外你可能不会注意到的隐藏细节。 克服恐惧，就要成为恐惧 全...
+										<a href="#">(全文)</a>
+									</div>
+								</div>
+							</div>
+							<div class="yingpingT">
+								<img width="68px" height="98.96px" style="position: absolute;cursor: pointer;" src="jpgall/p2602595914.jpg">
+								<div class="yingpingT-bd">
+									<div class="yingpingT-bd-h3">
+										<a href="#">Lin-Manuel Miranda其人其事</a>
+									</div>
+									<div class="yingpingT-bd-meta">
+										<a href="#">C.W</a> 评论
+										<a href="#">《汉密尔顿》</a>
+
+										<span>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gainsboro;" class="fa fa-star"></i>
+										</span>
+									</div>
+									<div class="yingpingT-bd-text">
+										想给大家再讲讲这个剧背后的主创Lin-Manuel Miranda的故事： 1.
+										Lin-Manuel同时是Hamilton这个剧的男主角，作曲人，作词人，编剧和制作人，全能型天才选手。他至今已拿到一座普利策奖，三座托尼奖，三座格莱美奖...
+										<a href="#">(全文)</a>
+									</div>
+								</div>
+							</div>
+							<div class="yingpingT">
+								<img width="68px" height="98.96px" style="position: absolute;cursor: pointer;" src="jpgall/p2608495324.jpg">
+								<div class="yingpingT-bd">
+									<div class="yingpingT-bd-h3">
+										<a href="#">四个引人入胜的问题和令人失望的答案</a>
+									</div>
+									<div class="yingpingT-bd-meta">
+										<a href="#">哈姆谢特 </a> 评论
+										<a href="#">《侵入者》</a>
+
+										<span>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gold;" class="fa fa-star"></i>
+											<i style="color: gainsboro;" class="fa fa-star"></i>
+										</span>
+									</div>
+									<div class="yingpingT-bd-text">
+										一.谁是侵入者？ 片名《侵入者》指向性非常明显，让观众一看到从天而降的宥真就有了怀疑的对象，当她接着又带来康复师，就更凸显侵入者的身份，后面杀了追踪她的保安爸爸和发觉异常的保姆，百分之百地做实了她是...
+										<a href="#">(全文)</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="xywarticleR">
+						<div class="xywarticleR-hd">
+							<a href="#">豆瓣电影评分八问</a>
+						</div>
+						<div class="xywarticleRTOP">
+							<div class="xywarticleRTOP-hd">
+								一周口碑磅<a class="fanyet" href="#">更多榜单<i class="fa fa-angle-double-right"></i></a>
+							</div>
+							<table>
+								<tbody>
+									<tr>
+										<td class="order">1</td>
+										<td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/34961898/">汉密尔顿</a></td>
+									</tr>
+									<tr>
+										<td class="order">2</td>
+										<td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/35139396/">你已不在那里：京都动画纵火事件</a></td>
+									</tr>
+									<tr>
+										<td class="order">3</td>
+										<td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/26871906/">灰猎犬号</a></td>
+									</tr>
+									<tr>
+										<td class="order">4</td>
+										<td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/30368608/">第一头牛</a></td>
+									</tr>
+									<tr>
+										<td class="order">5</td>
+										<td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/33428622/">叔·叔</a></td>
+									</tr>
+									<tr>
+										<td class="order">6</td>
+										<td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/27186368/">希望沟壑</a></td>
+									</tr>
+									<tr>
+										<td class="order">7</td>
+										<td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/34835822/">我们俩</a></td>
+									</tr>
+									<tr>
+										<td class="order">8</td>
+										<td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/34822138/">咱们裸熊：电影版</a></td>
+									</tr>
+									<tr>
+										<td class="order">9</td>
+										<td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/30482204/">不可抗拒</a></td>
+									</tr>
+									<tr>
+										<td class="order">10</td>
+										<td class="title"><a onclick="moreurl(this, {from:'mv_rk'})" href="https://movie.douban.com/subject/33422943/">我们的母亲</a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="xywarticleRdoulist">
+							<div class="xywarticleRTOP-hd2">
+								热门豆列
+							</div>
+							<ul>
+								<li>
+									<span style="float: right;color: #999;font-size: 13px;">1推荐</span>
+									<div class="listtitle"><a target="_blank" href="https://www.douban.com/doulist/13953058/">in 黑色电影 : 历史、批评与风格</a></div>
+
+								</li>
+								<li>
+									<span style="float: right;color: #999;font-size: 13px;">6090推荐</span>
+									<div class="listtitle"><a target="_blank" href="https://www.douban.com/doulist/538224/">【你连名字都那么牛逼】</a></div>
+								</li>
+							</ul>
+						</div>
+						<div class="xywarticleRhezuo">
+							<div class="xywarticleRhezuo-hd">
+								合作联系
+							</div>
+							<div class="xywarticleRhezuo-hd-li">
+								<ul>
+									<li>电影合作邮箱：<img src="jpgall/email_movie.png"></li>
+									<li>电视剧合作邮箱：
+										<img style="width: 90px;" src="jpgall/email_tv.png">
+										<img style="width: 20px;height: 9px;margin: -3px 0px 0px;" src="jpgall/ic_new%20(1).png">
+									</li>
+									<li>豆瓣影人PRO合作邮箱：<img style="width: 102px;" src="jpgall/email_pro.png"></li>
+								</ul>
+							</div>
+						</div>
+						<br>
+						<div class="xywarticleRguanzhu">
+							<div class="xywarticleRguanzhu-hd">
+								关注我们
+							</div>
+							<div class="xywarticleRguanzhu-hd-li">
+								<ul>
+									<li>
+										<img style="margin: 0px 10px 3px 10px;cursor: pointer;" src="jpgall/home_weibo.png">
+										<a href="#">微博</a>
+									</li>
+									<li>
+										<img style="margin: 0px 10px 3px 10px;cursor: pointer;" src="jpgall/home_weixin.png">
+										<a href="#">微信</a>
+									</li>
+									<li>
+										<img style="width: 40px;height: 40px;margin: 0px 10px 3px 10px;cursor: pointer;" src="jpgall/bite_me_2x.jpg">
+										<a href="#">瓣嘴</a>
+									</li>
+									<li>
+										<img style="width: 40px;height: 40px;margin: 0px 10px 3px 10px;cursor: pointer;" src="jpgall/home_film_pro_2x.jpg">
+										<a href="#">豆瓣影人PRO</a>
+									</li>
+									<li>
+										<img style="width: 40px;height: 40px;margin: 0px 10px 3px 10px;cursor: pointer;" src="jpgall/home_club_2x.jpg">
+										<a href="#">观影club</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="guanggaoD">
+							<div class="guanggao">
+								<img style="width: 96px;height: 80px;float: left;cursor: pointer;" src="jpgall/bc25d07ab03c739.jpg">
+								<div class="guanggao-hd">
+									<div class="guanggao-hd-title">
+										<a style="width: 135.34px;height: 14px;color: #3377aa;font-size: 12px;text-decoration: none;" href="#">清香浓郁
+											豆瓣冻顶乌龙茶</a>
+									</div>
+									<div class="guanggao-hd-p">
+										豆瓣豆品
+									</div>
+								</div>
+							</div>
+							<div class="guanggao-biaozhi">广告</div>
+						</div>
+					<div class="xywarticleRdown" 
+					style="width: 300px;height: 1000px;margin-top: 100px;">
+						<div style="transform: rotate(90deg);" id="la">
+							<div class="kuai1">
+								<div id="one">
+								</div>
+							</div>
+							<div class="kuai2">
+								<div id="one">
+								</div>
+							</div>
+							<div class="kuai3">
+								<div id="one">
+								</div>
+							</div>
+							<div class="kuai4">
+								<div id="one">
+								</div>
+							</div>
+							<div class="kuai5">
+								<div id="one">
+								</div>
+							</div>
+							<div class="kuai6">
+								<div id="one">
+								</div>
+							</div>
+							<div class="kuai7">
+								<div id="one">
+								</div>
+							</div>
+							<div class="kuai8">
+								<div id="one">
+								</div>
+							</div>
+							<div class="kuai9">
+								<div id="one">
+								</div>
+							</div>
+							<div class="kuai10">
+								<div id="one">
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+					
+				</div>
+				<div class="xywfoot">
+					<span class="xywfootp">
+						© 2005－2020 douban.com, all rights reserved 北京豆网科技有限公司
+					</span>
+					<span class="xywfoota">
+						<a href="#">关于豆瓣</a>
+						· <a href="#">在豆瓣工作</a>
+						· <a href="#">联系我们</a>
+						· <a href="#">法律声明</a>
+
+						· <a href="#">帮助中心</a>
+						· <a href="#">移动应用</a>
+						· <a href="#">豆瓣广告</a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		new Swiper(".swiper-container", {
+		      // 如果需要前进后退按钮
+		      scrollbar: {
+		        el: ".swiper-scrollbar"
+		      },
+			  navigation: {
+			      nextEl: '.swiper-button-next-fanyetnext',
+			      prevEl: '.swiper-button-prev-fanyetblack',
+			      // disabledClass: 'my-button-disabled',
+			    },
+		      loop: true,
+			  speed: 2500,
+		      autoplay: {
+		        delay: 5000,
+		        stopOnLastSlide: false,
+				
+		        disableOnInteraction: false
+		      }
+		      // autoplayDisableOnInteraction: false,
+		    });
+			new Swiper(".swiper-containerM", {
+			      // 如果需要前进后退按钮
+			      // scrollbar: {
+			      //   el: ".swiper-scrollbar"
+			      // },
+				  navigation: {
+				      nextEl: '.swiper-button-next-fanyetnext',
+				      prevEl: '.swiper-button-prev-fanyetblack',
+				      // disabledClass: 'my-button-disabled',
+				    },
+			      loop: true,
+				  speed: 2500,
+			      autoplay: {
+			        delay: 7000,
+			        
+			      }
+			      // autoplayDisableOnInteraction: false,
+			    });
+				
+				// $(function(){
+				//         /***1**/
+				//         $("#ahover").mouseover(function() {  
+				//            var ln_items=document.getElementsByClassName("xywTOPxiazai");
+				//            ln_items.style.display="block"; 
+				//            $("#ahover").mouseleave(function() {
+				//                ln_items.style.display="none"; 
+				//                });                   
+				//            });              
+				// });
+				
+	</script>
+	<style>
+	
+		#la {
+			height:100px;
+			display: flex;
+		}
+	
+		#one {
+			width: 50px;
+			height: 50px;
+			background: url(./jpgall/nav_doubanapp_6.png) no-repeat center;
+			background-size: 50%;
+			border: 1px greenyellow solid;
+			margin-left: 25px;
+			border-radius: 50%;
+			transform: rotate(-90deg);
+		}
+	
+		
+	
+		.kuai1 {
+			align-items: center;
+			animation: tiao1;
+			position: relative;
+			animation-iteration-count: infinite;
+			animation-direction: normal;
+			animation-duration: 3s;
+		}
+	
+		@keyframes tiao1 {
+			from {
+				top: 50px
+			}
+	
+			50% {
+				top: -50px
+			}
+	
+			to {
+				top: 50px
+			}
+		}
+	
+		.kuai2 {
+			align-items: center;
+			animation: tiao2;
+			position: relative;
+			animation-iteration-count: infinite;
+			animation-direction: normal;
+			animation-delay: 1s;
+			animation-duration: 3s;
+		}
+	
+		@keyframes tiao2 {
+			from {
+				top: 50px
+			}
+			
+			50% {
+				top: -50px
+			}
+			
+			to {
+				top: 50px
+			}
+		}
+	
+		.kuai3 {
+			align-items: center;
+			animation: tiao3;
+			position: relative;
+			animation-iteration-count: infinite;
+			animation-direction: normal;
+			animation-delay: 1.5s;
+			animation-duration: 3s;
+		}
+	
+		@keyframes tiao3 {
+			from {
+				top: 50px
+			}
+			
+			50% {
+				top: -50px
+			}
+			
+			to {
+				top: 50px
+			}
+		}
+	
+		.kuai4 {
+			align-items: center;
+			animation: tiao4;
+			position: relative;
+			animation-iteration-count: infinite;
+			animation-direction: normal;
+			animation-delay: 2s;
+			animation-duration: 3s;
+		}
+	
+		@keyframes tiao4 {
+			from {
+				top: 50px
+			}
+			
+			50% {
+				top: -50px
+			}
+			
+			to {
+				top: 50px
+			}
+		}
+	
+		.kuai5 {
+			align-items: center;
+			animation: tiao5;
+			position: relative;
+			animation-iteration-count: infinite;
+			animation-direction: normal;
+			animation-delay: 2.5s;
+			animation-duration: 3s;
+		}
+	
+		@keyframes tiao5 {
+			from {
+				top: 50px
+			}
+			
+			50% {
+				top: -50px
+			}
+			
+			to {
+				top: 50px
+			}
+		}
+		.kuai6 {
+			align-items: center;
+			animation: tiao6;
+			position: relative;
+			animation-iteration-count: infinite;
+			animation-direction: normal;
+			animation-delay: 3s;
+			animation-duration: 3s;
+		}
+			
+		@keyframes tiao6 {
+			from {
+				top: 50px
+			}
+			
+			50% {
+				top: -50px
+			}
+			
+			to {
+				top: 50px
+			}
+		}
+		.kuai7 {
+			align-items: center;
+			animation: tiao7;
+			position: relative;
+			animation-iteration-count: infinite;
+			animation-direction: normal;
+			animation-delay: 3.5s;
+			animation-duration: 3s;
+		}
+			
+		@keyframes tiao7 {
+			from {
+				top: 50px
+			}
+			
+			50% {
+				top: -50px
+			}
+			
+			to {
+				top: 50px
+			}
+		}
+		.kuai8 {
+			align-items: center;
+			animation: tiao8;
+			position: relative;
+			animation-iteration-count: infinite;
+			animation-direction: normal;
+			animation-delay: 4s;
+			animation-duration: 3s;
+		}
+			
+		@keyframes tiao8 {
+			from {
+				top: 50px
+			}
+			
+			50% {
+				top: -50px
+			}
+			
+			to {
+				top: 50px
+			}
+		}
+		.kuai9 {
+			align-items: center;
+			animation: tiao9;
+			position: relative;
+			animation-iteration-count: infinite;
+			animation-direction: normal;
+			animation-delay: 4.5s;
+			animation-duration: 3s;
+		}
+			
+		@keyframes tiao9 {
+			from {
+				top: 50px
+			}
+			
+			50% {
+				top: -50px
+			}
+			
+			to {
+				top: 50px
+			}
+		}
+		.kuai10 {
+			align-items: center;
+			animation: tiao10;
+			position: relative;
+			animation-iteration-count: infinite;
+			animation-direction: normal;
+			animation-delay: 5s;
+			animation-duration: 3s;
+		}
+			
+		@keyframes tiao10 {
+			from {
+				top: 50px
+			}
+			
+			50% {
+				top: -50px
+			}
+			
+			to {
+				top: 50px
+			}
+		}
+	</style>
+</html>

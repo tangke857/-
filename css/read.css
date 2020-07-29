@@ -1,0 +1,125 @@
+.reads{
+    width: 100%;height: 598px; 
+    margin-top: 25px;
+}
+.read-content{
+    width: 974px;height: 598px;margin: 0 auto;
+}
+.read-left{
+    height:269px;width: 100px;
+    float: left;
+}
+.read-left h2{
+color: #4a2f14;
+font-size: 24px;
+text-decoration: none;
+}
+.read-left a{
+   text-decoration: none;
+   font-size: 14px;
+   color: #614e3c;
+}
+.read-left li{
+    margin-top: 10px;
+}
+.read-left-logo{
+   height: 50px;width: 50px;
+}
+.read-left-logo a{
+    font-size: 12px;
+}
+a:hover{
+    background: #37a;
+    color: white;
+}
+.read-left-logo li{
+    margin-top: 20px;
+}
+.read-center{
+    width:535px;height:578px;float: left;
+}
+.read-center-content{
+    width: 535px;height: 535px;height: 222px; 
+}
+.read-center-content h2{
+    font: 15px Arial, Helvetica, sans-serif;
+        color: #072;
+        margin: 0 0 12px 0;
+        line-height: 150%;
+}
+.read-center-content a{
+color: #614e3c;
+font-size: 12px;
+text-decoration: none;
+
+}
+ a:hover{
+    color: white;
+}
+.pic{
+    width: 132px;
+    height: 148px;
+}
+.pic img{
+    width: 100px;
+}
+.read-center-content li{
+    display: inline-block;margin-top: 15px;
+    text-align: center;
+}
+.title{
+    line-height: 1.45;
+    font-size: 13px;
+    margin-bottom: 4px;
+    word-wrap: break-word;
+}
+.bn-link {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: middle;
+    padding: 2px 10px;
+    border-radius: 2px;
+}
+.bn-link:link, .bn-link:visited {
+    background: #999a95;
+    color: #fff;}
+    .title a:hover{
+        color: white;
+    }
+    .read-right{
+        width: 265px;height: 416px; float: left;
+        margin-left: 60px;
+    }
+    .read-right-content{
+        width: 265px;height: 51px;border-bottom: solid 1px #eaeaea;margin-top: 15px; 
+        margin-left: 10px;
+    }
+    .read-right h2{
+        font: 15px Arial, Helvetica, sans-serif;
+        color: #072;
+        margin: 0 0 12px 0;
+        line-height: 150%;
+    }
+    .read-right a:hover{
+        color: white;
+    }
+    .read-right-content li{
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .read-right a{
+        font-size: 12px;
+        text-decoration: none;
+        color: #614e3c;
+    }
+    .cate-label {
+        width: auto;
+        font-size: 12px;
+        color: #999;}
+        .read-right-content a{
+            text-decoration: none;
+            color: #614e3c;
+            cursor: pointer;
+        }

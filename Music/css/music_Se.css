@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 13px; 
+}
+/* 框架样式 ---------------------------------------------------------------*/
+.header{
+    
+    min-width:1520px;
+    height: 403.55px;
+    margin: 0 auto;
+    /* background-color: khaki; */
+}
+.section1_tip{
+   
+    width: 160px;
+    height:391.57px ;
+    /* background-color: lawngreen; */
+    align-items: flex-end;
+    position: sticky;
+    top: 50px;
+    right: 20px;
+    text-align: right;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.section2_play{
+    max-width: 950px;
+    margin:30px auto;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.section3_parter{
+    padding: 53px 0 85px 0;
+}
+.section4_Guanzhu{
+    max-width: 950px; 
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    background-color: lightgreen;
+}
+/* 1.顶部图片部分 ---------------------------------------------------------------*/
+.header img{
+    display: block;
+    margin: 0 auto;
+}
+.img1{
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+}
+/* 2.滑动的导航---------------------------------------------------------------- */
+.nav-col{
+    flex-direction: column;
+    display: flex;
+    margin-left: 20px;
+}
+.col{
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 800;
+    text-align: right;
+}
+
+.App{
+    width: 46px;
+    top: 150px;
+    right: 0;
+    float: right;
+    margin-top: 10px;
+}
+.App a{
+    background-size: 46px 46px; 
+    width: 46px;
+    height: 46px; 
+    display: inline-block; 
+    margin-bottom: 15px;
+}
+/* ----------swiper的小块图片+img+标题+介绍-------------------------------------------------------------- */
+.slide{
+    display:inline-block;
+    width: 300px;
+    padding-right: 5px;
+    padding-left: 7px;
+}
+.slide-img{
+    object-fit: cover; 
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 180px;
+}
+.slide-title{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    white-space: normal;
+    text-align: left;
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.slide h3{
+    height: 40px;
+}
+.slide p{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap;
+}
+.slide-content{
+    width: 300px;
+    max-height: 28px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.29;
+    
+    text-align: left;
+    color: #666666;
+   
+}
+/* 阵容及演出时间 -----------------------------------------------------------*/
+.plays-nav{
+    display: inline-block;
+    height: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(240, 67, 66);
+    margin-top: 15px;
+   
+}
+.plays-hr{
+    position: relative;
+    opacity: 0.6;
+    margin: 0;
+    height: 30%;
+    align-self: center;
+    -ms-flex-item-align: center;
+    -webkit-align-self: center;
+    border: 0;
+    border-bottom: 1px solid #4d4d4d;
+    flex-grow: 10;
+    margin: 0 190px 0 290px;
+    padding-bottom: -130px;
+    text-align: center;
+    /* hr */
+    box-sizing: content-box;
+    height: 0;
+    bottom: 20px;
+    overflow: visible;
+}
+.plays-time{
+    position: relative;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #000000;
+    padding: 0 5px 0 10px;
+    margin-left: 20px;
+    z-index: 100;
+    bottom: 34px;
+    float: right;
+}
+.play-plays{
+    max-width: 950px;
+    height: 900px;
+}
+/* 时间导航--样式---------------------------------------------------------- */
+.time{
+    max-width:950px ;
+    height: 50px;
+    /* border: 1px solid red; */
+    float: left;
+}
+.time li{
+    list-style: none;
+    width: 210px;
+    float: left;
+    margin: 0 12px 0 12px;
+    text-align: center;
+    
+}
+.time li a{
+    color: #545652;
+}
+.time li span{
+    font-size: 32px;
+}
+.time span{
+    display: block;
+}
+/* 主舞台标题样式 */
+.Mstage{
+    height: 28px;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    color: rgb(240, 67, 66);
+    padding-left: 5%;
+    position: relative;
+    top: 50px;
+    margin-bottom: 30px;
+}
+/* ---点击时间切换样式--- */
+.active{
+    border-bottom:2px solid red ;
+}
+
+/*--------主舞台，（一个舞台小模块，包括img+标题+地点+时间）-----------------------  */
+.mstage-one{
+    display: inline-block;
+}
+.mstage-img{
+    width: 200px;
+    height: 200px;
+}
+.mstage-title{
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin-top: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    min-height: 30px;
+}
+.mstage-area{
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #333333;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.mstage-time{
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #333333;
+}
+
+
+
+/* ----------补充--分页区--------------------------------------------------------- */
+.page{
+    position:relative;
+    margin-left: 550px;
+    padding-bottom: 30px;
+ }

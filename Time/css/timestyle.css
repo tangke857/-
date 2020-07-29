@@ -1,0 +1,751 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+    background: #f2f2f7;
+}
+/* 顶部导航栏 */
+.header{
+    width: 100%;
+    height: 28px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: #545652;
+}
+.h-u{
+    width: 100%;
+    height: 28px;
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.h-u li a{
+    text-decoration: none;
+    color: #d5d5d5;
+}
+.h-u li{
+    width: 47.25px;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    line-height: 28px;
+}
+.header a:hover{
+    color: rgb(255, 255, 255);
+}
+.h-r1,.h-r2{
+    height: 28px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    font-size: 12px;
+    color: #d5d5d5;
+    line-height: 28px;
+}
+.h-r1{
+    left: 1170px;
+}
+.h-r2{
+    left: 1280px;
+}
+.h-r1 a,.h-r2 a{
+    text-decoration: none;
+    color: #d5d5d5;
+}
+.h-r1 a:hover{
+    color: rgb(255, 255, 255);
+}
+.ln-top_nav{
+    position: relative;
+    float: right;
+    margin-right: 5px;
+    line-height: 28px;
+    color: #d5d5d5;
+    }
+
+    .ln-top_nav a{
+    display: inline-block;
+    zoom: 1;
+    padding: 0 8px;
+    height: 28px;
+    color: #d5d5d5;
+    text-decoration: none;
+    }
+
+    .ln-na_appinfo{
+    display: block;
+    padding: 10px 0;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    white-space: nowrap;
+    top: 28px;
+    padding: 10px 20px 30px;
+    left: -76px;
+    width: 211px;
+    border-top: none;
+    color: #111;
+    font-size: 15px;
+    line-height: 1.62;
+    font-weight: bold;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+    position: absolute;
+    }
+    .ln-app_title{
+        padding-top: 170px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 400;
+    background: url(../img/doubanapp_6.png) no-repeat center;
+    text-align: center;
+    }
+    .ln-qrcode{
+    padding-top: 160px;
+    margin-top: 30px;
+    font-size: 0;
+    background: url(../img/doubanapp_Code.png) no-repeat center;
+    color: #111;
+    font-size: 15px;
+    line-height: 1.62;
+    font-weight: bold;
+    text-align: center;
+    }
+
+    .ln-download{
+        margin-top: 10px;
+    }
+
+    .ln-download a{
+        color: #37a;
+        display: inline;
+        font-weight: normal;
+        font-size: 12px;
+        background: none;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .ln-download span{
+        color: #111;
+    font-size: 15px;
+    line-height: 1.62;
+    font-weight: bold;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+    }
+    .ln-bxs{
+        display: none;
+    }
+
+/* 主体内容 */
+.content{
+    width: 650px;
+    height: 8880px;
+    margin:  0 auto;
+    padding-top: 5px;
+    background: white;
+}
+/* 轮播图 */
+.swiper-container{
+    width: 100%;
+    height: 286px;
+}
+.swiper-container:hover .swiper-button-next{
+    display: block;
+}
+.swiper-container:hover .swiper-button-prev{
+    display: block;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    transform: 300ms;
+    transform: scale(0.8);
+}
+.swiper-button-next,.swiper-button-prev{
+    background: rgb(219, 218, 218,0.7);
+    border-radius: 50%;
+    display: none;
+}
+.swiper-button-prev{
+    margin-left: -10px;
+}
+.swiper-button-next{
+    margin-right: -10px;
+}
+.swiper-slide img{
+    border-radius: 5px;
+}
+.swiper-slide-active,.swiper-slide-duplicate-active{
+    z-index: 1;
+    transform: scale(1);
+  }
+  /* 小图标 */
+.school{
+    width: 100%;
+    height: 89px;
+    padding: 10px 0 10px 0;
+}
+.school1{
+    width: 126px;
+    height: 69px;
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+.school1 p{
+    font-size: 13px;
+    margin: 6px 0 0 0;
+}
+.school1 img{
+    width: 44px;
+    height: 44px;
+}
+/* 新品尝鲜 */
+.xinpin{
+    width: 620px;
+    height: 252px;
+    padding: 0 15px 0 15px;
+}
+.xinpin1{
+    font-size: 19px;
+    line-height: 19px;
+    font-weight: 700;
+    padding-top: 20px;
+    display: inline-block;
+    width: 500px;
+}
+.x-content{
+    width: 620px;
+    height: 99px;
+    padding: 15px 0 15px 0;
+}
+.x-content1{
+    border-bottom: 1px solid #d5d5d5;
+}
+.x-content-img1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 15px 0 0;
+    border-radius: 5px;
+    float: left;
+    transition: all 1s;
+}
+/* 背景图 */
+.imgbg{
+    background: url(../img/c1.jpg);
+    background-size: 100px 100px;
+}
+.x-content-img1:hover{
+    transform: scale(1.1);
+}
+.imgbg1{
+    background: url(../img/f1.jpg);
+    background-size: 100px 100px;
+}
+.imgbg2{
+    background: url(../img/d3.jpg);
+    background-size: 100px 100px;
+}
+.imgbg3{
+    background: url(../img/f2.jpg);
+    background-size: 100px 100px;
+}
+.imgbg4{
+    background: url(../img/f3.jpg);
+    background-size: 100px 100px;
+}
+.imgbg5{
+    background: url(../img/d4.jpg);
+    background-size: 100px 100px;
+}
+.imgbg6{
+    background: url(../img/f4.jpg);
+    background-size: 100px 100px;
+}
+.imgbg7{
+    background: url(../img/f5.jpg);
+    background-size: 100px 100px;
+}
+.imgbg8{
+    background: url(../img/f6.jpg);
+    background-size: 100px 100px;
+}
+.imgbg9{
+    background: url(../img/f7.jpg);
+    background-size: 100px 100px;
+}
+.imgbg10{
+    background: url(../img/f8.jpg);
+    background-size: 100px 100px;
+}
+.imgbg11{
+    background: url(../img/f9.jpg);
+    background-size: 100px 100px;
+}
+.imgbg12{
+    background: url(../img/f10.jpg);
+    background-size: 100px 100px;
+}
+.imgbg13{
+    background: url(../img/f11.jpg);
+    background-size: 100px 100px;
+}
+.imgbg14{
+    background: url(../img/e2.jpg);
+    background-size: 100px 100px;
+}
+.imgbg15{
+    background: url(../img/e3.jpg);
+    background-size: 100px 100px;
+}
+.imgbg16{
+    background: url(../img/e4.jpg);
+    background-size: 100px 100px;
+}
+.imgbg17{
+    background: url(../img/e5.jpg);
+    background-size: 100px 100px;
+}
+.imgbg18{
+    background: url(../img/g2.jpg);
+    background-size: 100px 100px;
+}
+.imgbg19{
+    background: url(../img/g3.jpg);
+    background-size: 100px 100px;
+}
+.imgbg20{
+    background: url(../img/g4.jpg);
+    background-size: 100px 100px;
+}
+.imgbg21{
+    background: url(../img/g5.jpg);
+    background-size: 100px 100px;
+}
+.imgbg22{
+    background: url(../img/g6.jpg);
+    background-size: 100px 100px;
+}
+.imgbg23{
+    background: url(../img/g7.jpg);
+    background-size: 100px 100px;
+}
+.imgbg24{
+    background: url(../img/g8.jpg);
+    background-size: 100px 100px;
+}
+.imgbg25{
+    background: url(../img/g9.jpg);
+    background-size: 100px 100px;
+}
+.imgbg26{
+    background: url(../img/h2.jpg);
+    background-size: 100px 100px;
+}
+.imgbg27{
+    background: url(../img/h3.jpg);
+    background-size: 100px 100px;
+}
+.imgbg28{
+    background: url(../img/h4.jpg);
+    background-size: 100px 100px;
+}
+.imgbg29{
+    background: url(../img/h5.jpg);
+    background-size: 100px 100px;
+}
+.imgbg30{
+    background: url(../img/h7.jpg);
+    background-size: 100px 100px;
+}
+.imgbg31{
+    background: url(../img/h8.jpg);
+    background-size: 100px 100px;
+}
+.imgbg32{
+    background: url(../img/h9.jpg);
+    background-size: 100px 100px;
+}
+.imgbg33{
+    background: url(../img/h10.jpg);
+    background-size: 100px 100px;
+}
+.imgbg34{
+    background: url(../img/h11.jpg);
+    background-size: 100px 100px;
+}
+.imgbg35{
+    background: url(../img/i1.jpg);
+    background-size: 100px 100px;
+}
+.imgbg36{
+    background: url(../img/i2.jpg);
+    background-size: 100px 100px;
+}
+.imgbg37{
+    background: url(../img/i3.jpg);
+    background-size: 100px 100px;
+}
+.imgbg38{
+    background: url(../img/i4.jpg);
+    background-size: 100px 100px;
+}
+.imgbg39{
+    background: url(../img/i8.jpg);
+    background-size: 100px 100px;
+}
+.imgbg40{
+    background: url(../img/i9.jpg);
+    background-size: 100px 100px;
+}
+.imgbg41{
+    background: url(../img/i10.jpg);
+    background-size: 100px 100px;
+}
+.imgbg42{
+    background: url(../img/i11.jpg);
+    background-size: 100px 100px;
+}
+.imgbg43{
+    background: url(../img/c3.jpg);
+    background-size: 100px 100px;
+}
+/* 音频 */
+.x-con{
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 0 6px;
+    font-size: 5px;
+    background: rgba(0,0,0,.4);
+    color: #fff;
+}
+.x-content-p{
+    width: 505px;
+    height: 100px;
+    float: left;
+}
+.book1{
+    width: 505px;
+    height: 37px;
+}
+.book1 h4{
+    width: 430px;
+    font-size:15px;
+    color: black;
+    margin-bottom: 15px;
+    float: left;
+}
+/* 书价 */
+.price{
+    width: 70px;
+    height: 35px;
+    float: left;
+}
+/* 书现价 */
+.p-top{
+    font-size:13px;
+    font-weight: 550;
+    color:#f97927;
+}
+/* 书原价 */
+.p-bottom{
+    font-size:12px;
+    text-decoration: line-through;
+    padding-left:3px;
+    color:#d5d5d5;
+}
+/* 主讲人 */
+.b-name{
+    font-size: 13px;
+    margin-bottom:17px;
+    color:rgba(0,0,0,.5);
+}
+/* 音频小简介 */
+.b-bottom{
+    font-size: 11px;
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    color:rgba(0,0,0,.5);
+}
+/* 试听 */
+.listen{
+    width: 610px;
+    height: 63px;
+    padding: 0 20px 20px 0;
+}
+.listen1,.listen2{
+    width: 224px;
+    height: 40px;
+    padding: 10px;
+    float: left;
+    border: 1px solid #ecebeb;
+    border-radius: 5px;
+}
+.listen2{
+    margin-left: 10px;
+}
+.listen1-left{
+    width: 24px;
+    height: 40px;
+    margin: 0 10px 0 5px;
+    float: left;
+}
+.listen1-left img{
+    width: 24px;
+    height: 24px;
+}
+.listen1-left-c{
+    width: 24px;
+    height: 12px;
+    font-size: 3px;
+    margin-top: -3px;
+}
+.listen1-right,.listen2-right{
+    width: 185px;
+    height: 40px;
+    float: left;
+    font-size: 13px;
+}
+.listen2-right{
+    padding-top: 10px;
+}
+/* 夏日特惠 */
+.tehui{
+    width: 620px;
+    height: 383px;
+    padding: 0 15px 0 15px;
+}
+/* 斜杠青年养成计划 */
+.plan{
+    width: 620px;
+    height: 383px;
+    padding: 0 15px 0 15px;
+}
+.plan-c{
+    width: 610px;
+    height: 321px;
+    padding: 20px 0 0 0;  
+    scroll-behavior: smooth;
+    overflow: auto visible;
+    white-space: nowrap;
+}
+.plan-con{
+    width: 207px;
+    height: 285px;
+    display: inline-block;
+}
+.plan-con p{
+    font-size: 15px;
+    margin: 5px 0;
+    line-height: 18px;
+    white-space: normal;
+}
+.p-img{
+    width: 198px;
+    height: 198px;
+    position: relative;
+    border-radius: 5px;
+}
+.p-bg1{
+    background: url(../img/j1.jpeg);
+    background-size: 198px 198px;
+}
+.p-bg2{
+    background: url(../img/f5.jpg);
+    background-size: 198px 198px;
+}
+.p-bg3{
+    background: url(../img/h8.jpg);
+    background-size: 198px 198px;
+}
+.p-bg4{
+    background: url(../img/h9.jpg);
+    background-size: 198px 198px;
+}
+.p-bg5{
+    background: url(../img/j2.jpg);
+    background-size: 198px 198px;
+}
+.p-bg6{
+    background: url(../img/d1.jpg);
+    background-size: 198px 198px;
+}
+.p-bg7{
+    background: url(../img/d2.jpg);
+    background-size: 198px 198px;
+}
+.p-bg8{
+    background: url(../img/d3.jpg);
+    background-size: 198px 198px;
+}
+.p-bg9{
+    background: url(../img/d4.jpg);
+    background-size: 198px 198px;
+}
+.p-bg10{
+    background: url(../img/d5.jpg);
+    background-size: 198px 198px;
+}
+/* 青椒学院 */
+.qingjiao{
+    width: 620px;
+    height: 340px;
+    padding: 0 15px 0 15px;
+}
+.q-content{
+    width: 630px;
+    height: 151px;
+    padding: 0 0 20px 0;
+    scroll-behavior: smooth;
+    overflow: auto visible;
+    white-space: nowrap;
+}
+.q-con{
+    width: 120px;
+    height: 120px;
+    margin:10px 5px 0 5px;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 1s;
+}
+.q-con:hover{
+    transform: scale(1.15);
+}
+.q-con img{
+    width: 110px;
+    height: 100px;
+    border-radius:5px;
+    margin: 2px 0 0 5px;
+}
+.q-con p{
+    font-size: 10px;
+    text-align: center;
+}
+.chakangengduo{
+    font-size: 14px;
+    margin-left: 40px;
+}
+/* 大咖驾到 */
+.daka{
+    width: 630px;
+    height: 559px;
+    padding: 0 5px 0 15px;
+}
+/* 精品畅销 */
+.jingping{
+    width: 630px;
+    height: 559px;
+    padding: 0 5px 0 15px;
+}
+/* 豆瓣影人PRO大师课 */
+.douban{
+    width: 630px;
+    height: 689px;
+    padding: 0 5px 0 15px;
+}
+/* 过渡图 */
+.image1{
+    width: 610px;
+    height: 222px;
+    padding: 20px;
+}
+.image1 img{
+    width: 610px;
+    height: 218.5px;
+    border-radius: 5px;
+}
+/* 心理情感 */
+.xinli{
+    width: 630px;
+    height: 559px;
+    padding: 0 5px 0 15px;
+}
+/* 文学艺术 */
+.wenxue{
+    width: 630px;
+    height: 559px;
+    padding: 0 5px 0 15px;
+}
+/* 社科人文 */
+.sheke{
+    width: 620px;
+    height: 559px;
+    padding: 0 15px 0 15px;
+}
+/* 观影指南 */
+.guanying{
+    width: 620px;
+    height: 559px;
+    padding: 0 15px 0 15px;
+}
+/* 生活美学 */
+.shenghuo{
+    width: 620px;
+    height: 689px;
+    padding: 0 15px 0 15px;
+}
+/* 音乐生活 */
+.yinyue{
+    width: 620px;
+    height: 559px;
+    padding: 0 15px 0 15px;
+}
+/* 时间大本营 */
+.shijian{
+    width: 620px;
+    height: 224px;
+    padding: 0 15px 0 15px;
+}
+.sj-content{
+    width: 610px;
+    scroll-behavior: smooth;
+    overflow: auto visible;
+    white-space: nowrap;
+    padding: 15px 20px 30px 5px;
+}
+.s-image{
+    display: inline-block;
+    margin-right: 15px;
+}
+.s-image img{
+    height: 120px;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.08);
+}
+/* 精品KEY专栏 */
+.key{
+    width: 620px;
+    height: 559px;
+    padding: 0 15px 0 15px;
+}

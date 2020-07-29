@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+.page{
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+    position: relative;
+}
+#head{
+    width: 100%;
+   position: absolute;
+   height: 30px;
+}
+.head-right{
+    width: 514px;
+font-size: 12px;
+ float: left;
+    height: 30px;
+    margin-left: 800px;
+}
+ /* .head-right li{ 
+    display: inline-block;
+    zoom: 1;
+    margin: 0 14px 0 0px;
+}
+
+.head-right a{
+  text-decoration: none;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  font-size: 20px;
+ 
+} */
+ .head-right li{ 
+   display: inline-block;
+   font-size: 20px;
+  margin-left: 15px;
+
+}
+.head-right a{
+      
+}
+.book{
+    color: #766350;
+    
+    
+}
+.movie{
+    color:#3192d0;
+}
+.music{
+    color:#f38309
+}
+.city{
+    color: #ea6520;
+}
+.group{
+    color: #10969e;
+}
+.read{
+    color: #71bbc4;
+}
+.fm{
+    color: #bfe5da;
+}
+.time{
+    color: #4d4d4d;
+    
+    
+}
+.douping{
+    color: #44883e;
+}
+body{
+    font: 12px Helvetica,Arial,sans-serif;
+}
+ .head-h1{
+    display: inline-block;
+    width: 160px;
+    height: 34px;
+    padding: 0;
+   position: absolute;
+   left: 207px;
+   background: url(https://img3.doubanio.com/f/sns/19886d443852bee48de2ed91f4a3bdfdaf8c809c/pics/nav/logo_db.png) no-repeat 0 0;
+    
+} 
+
+.search{
+    position: absolute;
+    
+    zoom: 1;
+    vertical-align: middle;
+    width: 270px;
+    height: 30px;
+    border: 1px solid #c3c3c3;
+    left:408px;
+    float: left;
+top: -5px;
+}
+.inp{
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    position: absolute;
+}
+.inp input{
+    width: 240px;
+    border: none;
+    font-size: 13px;
+    height: 20px;
+    padding: 5px;
+}
+.bn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    background: url(https://img3.doubanio.com/f/sns/f71f15922ebd7c0ff0ea0e7a25577529efd8981a/pics/icon/bn_srh_1.png) 50% 50% no-repeat;
+}
+.bn input{
+    border: none;
+    background: transparent;
+    *padding-left: 30px;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    font-size: 0;
+    color: transparent;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

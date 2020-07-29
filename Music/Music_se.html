@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/music_Se.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/datouwang.css" />
+    <style>
+        /* -----------swiper样式调整----没法调---------------------------------------------- */
+        .swiper-container{
+             margin-top: 20px;
+        }
+        .swiper-pagination{
+            position:absolute;
+            display: inline-block;
+            margin-left: 221px;
+            margin-bottom:5px ; 
+        }
+        .swiper-button-next,.swiper-button-prev{
+            position: relative;
+            display: inline-block;
+            width: 150px;
+            position: 0;
+        
+        }
+        .swiper-button-prev{
+            position: 0;
+        margin-right: -3px;
+        
+        }
+        .swiper-button-next{  
+        right: auto;
+        left: 307px;
+        }
+        .swiper-pagination-current,.swiper-pagination-total{
+            font-size: 40px;
+        }
+        .color1{
+           background-color: #fff;
+           border:0;
+        }
+        
+       
+    </style>
+</head>
+
+<body>
+    <div id="root">
+        <!-- 顶部 ----------------------------------------------------------------->
+        <div src="" class="header">
+            <img src="img/header-img1.jpg" alt="" class="img1" width="1520" height="403.55">
+            <!-- <img src="img/header-img2.jpg" alt="" class="img2"> -->
+        </div>
+        <!-- 滑动部分，用黏性粘贴 ---------------------------------------------->
+        <div class="section1_tip">
+            <div class="nav-col">
+                <a href="#" target="_blank" class="col">购票</a>
+                <a href="#" target="_blank" class="col">阵容及演出时间</a>
+                <a href="#" target="_blank" class="col">合作伙伴</a>
+                <a href="#" target="_blank" class="col">中 / EN</a>
+                <a href="#" target="_blank" class="col">试听歌单</a>
+            </div>
+            <div class="App">
+                <a href="#" style="background-image: url(img/App1.png);"></a>
+                <a href="#" style="background-image: url(img/App2.png);"></a>
+                <a href="#" style="background-image: url(img/App3.png);"></a>
+            </div>
+        </div>
+        <!-- 演出 ------------------------------------------------------>
+        <div class="section2_play">
+            <!-- 新闻 -->
+            <div class="play-news">
+                <!-- 标题 ,横线, 后面翻页部分------->
+                <span class="plays-nav">新闻</span>
+                <hr class="plays-hr" style="margin-left: 125px;">
+                <div class="page">
+                        <div style="position: absolute; ">
+                            
+                                <!-- 分页 -->
+                                <div class="swiper-pagination" style="border:3px solid #fff; "></div>
+                                <!-- 按钮 -->
+                                <div class="swiper-button-next swiper-button-black" style="border:3px solid #fff; "></div>
+                                <div class="swiper-button-prev swiper-button-black"></div>
+                        </div>
+                        <!--  -->
+
+
+
+                        <script type="text/javascript">
+                            let filter3 = document.getElementsByClassName("swiper-button-next")
+                            
+                            for(let i=0;i<filter.length;i++){
+                        filter[i].addEventListener('click',function(){
+                            filter[i].classList.add('color1')
+                           // filter[i].classList.remove('swiper-button-black')
+                            
+                        })
+                    }
+                            
+                        </script>
+                        <!--  -->
+                 </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <!-- 1 -->
+                            <div class="slide">
+                                <img src="img/news1.jpg" alt="" srcset="" class="silde-img" width="300" height="180">
+                                <h3 class="silde-title">［潮专题 Vol.2］百家争鸣正面刚：模拟合成器简史（下）</h3>
+                                <p class="silde-content">后起之秀探索、发现和相互竞争的故事</p>
+                            </div>
+                            <div class="slide">
+                                <img src="img/news2.jpg" alt="" srcset="" class="silde-img" width="300" height="180">
+                                <h3 class="silde-title">［潮专题 Vol.1］一根铁棍儿创世纪：模拟合成器简史（上）</h3>
+                                <p class="silde-content">相信我，合成器世界的一切真的都是由这根棍子开始的</p>
+                            </div>
+                            <div class="slide">
+                                <img src="img/news3.jpg" alt="" srcset="" class="silde-img" width="300" height="180">
+                                <h3 class="silde-title">［摄影比赛］用镜头复苏你身边的机器之美</h3>
+                                <p class="silde-content">冷冰冰的机器也有美感？当然！只等你来发现它</p>
+                            </div>
+                           
+                           
+                        </div>
+                        <!-- 2 -->
+                        <div class="swiper-slide">
+                            <div class="slide">
+                                <img src="img/news4.jpg" alt="" srcset="" class="silde-img" width="300" height="180">
+                                <h3 class="silde-title">［潮专题 Vol.4］为了做出“不正常”的音乐，他们开发了自己的 App</h3>
+                                <p class="silde-content">这就是为什么 Mouse on Mars 至今都在吸引无数年轻人的青睐</p>
+                            </div>
+                            <div class="slide">
+                                <img src="img/news5.jpg" alt="" srcset="" class="silde-img" width="300" height="180">
+                                <h3 class="silde-title">电影《一念无明》里的主题曲歌手即将现身潮潮音乐周现场</h3>
+                                <p class="silde-content">黄衍仁：清醒与沉醉间的辩证、反抗世界到反省自身的可能，是我有兴趣去想的事</p>
+                            </div>
+                            <div class="slide">
+                                <img src="img/news6.jpg" alt="" srcset="" class="silde-img" width="300" height="180">
+                                <h3 class="silde-title">潮潮看点：令全世界95后着迷的音乐厂牌创始人，曾为李宇春制作单曲</h3>
+                                <p class="silde-content">在潮潮豆瓣音乐周遇见 A.G.Cook 和 Danny L Harle</p>
+                            </div>
+                           
+                           
+                        </div>
+                        <!-- 3 -->
+                        <div class="swiper-slide">
+                            <div class="slide">
+                                <img src="img/news7.jpg" alt="" srcset="" class="silde-img" width="300" height="180">
+                                <h3 class="silde-title">［潮专题 Vol.5］没当过政治分析员的声音艺术家不是一位好博士</h3>
+                                <p class="silde-content">一个学霸做的电子乐是什么样的？在潮潮，Tim Hecker 会给你答案</p>
+                            </div>
+                            <div class="slide">
+                                <img src="img/news8.jpg" alt="" srcset="" class="silde-img" width="300" height="180">
+                                <h3 class="silde-title">潮潮 Wetware 豆瓣音乐周 志愿者招募来袭!</h3>
+                                <p class="silde-content">今年五月最酷的活动，等着你与我们一起来搞！事！情！</p>
+                            </div>
+                            <div class="slide">
+                                <img src="img/news9.jpg" alt="" srcset="" class="silde-img" width="300" height="180">
+                                <h3 class="silde-title">他曾是一位足球运动员，却阴差阳错成了电子音乐人</h3>
+                                <p class="silde-content">Actress 的《AZD》里冰冷的铬</p>
+                            </div>
+                           
+                           
+                        </div>				
+                    </div>
+     
+                </div>
+                <!-- swiper用的js部分------------------ -->
+                <script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+                <script>
+                    var swiper = new Swiper('.swiper-container', {
+                        loop: true, //是否循环，false不循环
+                        // effect : 'cube',//切换效果，不要可删除
+                        pagination: {
+                            el: '.swiper-pagination',
+                            type: 'fraction',
+                        },
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                    });
+                </script>
+                
+            </div>
+            <!-- 阵容及演出时间，+时间+地点 -------------------->
+            <div class="play-plays">
+                <span class="plays-nav">阵容及演出时间</span>
+                <hr class="plays-hr">
+                <span class="plays-time">时间表</span>
+                <span class="plays-time plays-musician">所有音乐家</span>
+                <!-- 时间表 -->
+                <ul class="time">
+                    <li>
+                        <a href="mstage1.html" target="myiframe">
+                            <span class="filter active">5/18</span>
+                            <span class="filter">THU</span>
+                         </a>
+                    </li>
+                    <li>
+                        <a href="mstage2.html" target="myiframe">
+                        <span class="filter">5/19</span>
+                        <span class="filter">FRI</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mstage3.html" target="myiframe">
+                        <span class="filter">5/20</span>
+                        <span class="filter">SAT</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mstage1.html" target="myiframe">
+                        <span class="filter">5/21</span>
+                        <span class="filter">SUN</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- js切换样式-------------------- -->
+                <script type="text/javascript">
+                    let filter = document.getElementsByClassName("filter")
+                    for(let i=0;i<filter.length;i++){
+                        filter[i].addEventListener('click',function(){
+                            filter[i].classList.add('active')
+                            for(let j=0;j<filter.length;j++){
+                                if(i!=j){
+                                    filter[j].classList.remove('active')
+                                }
+                            }
+                        })
+                    }
+                </script>
+                <!-- 主舞台部分，用的iframe部分 ---------------->
+                <h1  class="Mstage">主舞台</h1>
+                <iframe style="margin-top: 100px;width: 950px;height: 900px;" src="mstage1.html" class="artists-content" name="myiframe">
+                    <p>您的浏览器不支持  iframe 标签。</p>
+                    </iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

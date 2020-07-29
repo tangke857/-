@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音乐</title>
+    <link rel="stylesheet" href="css/musicStyle.css">
+    <link rel="stylesheet" href="swiper-5.4.1/css/swiper.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script>
+        $(function(){
+                /***1**/
+                $(".douban").mouseover(function() {  
+                   var ln_items=document.getElementById("na_appinfo");
+                   ln_items.style.display="block"; 
+                   $(".na_appinfo").mouseleave(function() {
+                       ln_items.style.display="none"; 
+                       });                   
+                   });              
+        });
+       </script>
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <div id="db-global-nav" class="global-nav">
+        <!-- 顶部导航主体 -->
+        <div class="bd">
+           
+            <!-- 导航右 -->
+                <!-- 登录注册 -->
+            <div class="top-nav-info">
+                <a href="" class="nav-login">登录/注册</a>
+            </div>
+                 <!-- 下载豆瓣客户端 -->
+<!-- 隐藏的东西 ------------------------------------------------------------------------------------->
+                <div class="top_nav">
+                    <a class="douban" href="">下载豆瓣客户端</a>
+                    <div class="na_appinfo bxs" id="na_appinfo">
+                        <p class="app_title">豆瓣</p>
+                        <p class="qrcode"></p>
+                        <div class="download">
+                            <a href="">iPhone</a>
+                            <span>.</span>
+                            <a href="">Android</a>
+                        </div>
+                    </div>
+                </div>
+               
+<!-- -------------------------------------------------------------------------------- -->
+            </div>
+             <!-- 导航（左）第一个导航 -->
+             <div class="global-nav-items">
+                <!-- 导航项 -->
+                <ul>
+                    <li><a href="">豆瓣</a></li>
+                    <li><a href="">读书</a></li>
+                    <li><a href="">电影</a></li>
+                    <li><a href="">音乐</a></li>
+                    <li><a href="">同城</a></li>
+                    <li><a href="">小组</a></li>
+                    <li><a href="">阅读</a></li>
+                    <li><a href="">FM</a></li>
+                    <li><a href="">时间</a></li>
+                    <li><a href="">豆品</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--2. 豆瓣音乐logo ,导航and搜索 -->
+    <div id="db-nav-search" class="nav">
+        <!-- 上 音乐logo  and  搜索部分-->
+        <div class="search">
+            <div class="search-content">
+                <!--2.1.1. logo 部分（左）  -->
+                <div class="content-logo">
+                    <a href="">豆瓣音乐</a>
+                </div>
+                <!--2.1.2. search 搜索部分（右）   -->
+                <div class="content-search">
+                    <form action="" method="get">
+                        <fieldset>
+                            <legend>搜索：</legend>
+                            <div class="text1">
+                                <input type="text" name="search_text" size="22" maxlength="60s" placeholder="唱片名、表演者、条码、ISRC">
+                            </div>
+                            <div class="submit1">
+                                <input type="submit" value="搜索">
+                            </div>
+                            <input type="hidden" name="cat" id="1003">
+                         </fieldset> 
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- 下 音乐导航部分第二个导航 -->
+        <div class="nav-two">
+            <div class="nav-items">
+                <ul>
+                    <li><a href="#">音乐人</a></li>
+                    <li><a href="Music_se.html">潮潮豆瓣音乐周</a></li>
+                    <li><a href="#">金羊毛计划</a></li>
+                    <li><a href="#">专题</a></li>
+                    <li><a href="#">排行榜</a></li>
+                    <li><a href="#">分类浏览</a></li>
+                    <li><a href="#">乐评</a></li>
+                    <li><a href="#">豆瓣FM</a></li>
+                    <li><a href="#">歌单</a></li>
+                    <li><a href="#">2019年度榜单</a></li>
+                    <li><a href="#">阿比鹿音乐奖</a></li>
+                </ul>
+            </div>
+            <a href="#" class="musicannual"></a>
+        </div>
+    </div>
+    <!-- 主页面 -->
+    <div id="Main">
+        <!-- 主页面内容 -->
+        <div id="Main-content">
+            <div class="Mcontent">
+                <!-- 左 -->
+                <div class="Mcontent-left">
+                    <!-- 左第一部分 swiper -->
+                    <div class="left1-swiper">
+                        <!-- Swiper -->
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/swiper1.jpg" alt="" width="675" height="250">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/swiper2.jpg" alt="" width="675" height="250">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/swiper3.jpg" alt="" width="675" height="250">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/swiper4.jpg" alt="" width="675" height="250">
+                            </div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <!-- <div class="swiper-button-prev"></div> -->
+                        </div>
+
+                        <!-- Swiper JS -->
+                        <script src="swiper-5.4.1/js/swiper.min.js"></script>
+
+                        <!-- Initialize Swiper -->
+                        <script>
+                            var swiper = new Swiper('.swiper-container', {
+                            slidesPerView: 1,
+                            spaceBetween: 30,
+                            centeredSlides: true,
+                            loop: true,
+                            autoplay: {
+                                delay: 2500,
+                                disableOnInteraction: false,
+                            },
+                            pagination: {
+                                el: '.swiper-pagination',
+                                clickable: true,
+                            },
+                            navigation: {
+                                nextEl: '.swiper-button-next',
+                                prevEl: '.swiper-button-prev',
+                            },
+                            });
+                        </script>
+                    </div>
+                    <!-- 左第二部分 音乐人 -->
+                    <div class="left2-artists">
+                        <ul class="artists-header">
+                            <li ><a href="left2-content.html" target="myiframe" class="artists-tab active">本周流行音乐人</a></li>|
+                            <li><a href="left2-content2.html" target="myiframe" class="artists-tab">上升最快音乐人</a></li>
+                        </ul>
+                        <script type="text/javascript">
+                            let filter = document.getElementsByClassName("artists-tab")
+                            for(let i=0;i<filter.length;i++){
+                                filter[i].addEventListener('click',function(){
+                                    filter[i].classList.add('active')
+                                    for(let j=0;j<filter.length;j++){
+                                        if(i!=j){
+                                            filter[j].classList.remove('active')
+                                        }
+                                    }
+                                })
+                            }
+                        </script>
+                        <!-- 音乐人导航 -->
+                        <!-- <ul class="artists-header">
+                            <li class="artists-tab active" >本周流行音乐人</li> |
+                            <li class="artists-tab"><a href="#">上升最快音乐人</a></li>
+                        </ul> -->
+                        <!-- 音乐人内容 -->
+                        <iframe src="left2-content.html" class="artists-content" name="myiframe">
+                            <p>您的浏览器不支持  iframe 标签。</p>
+                            </iframe>
+                    </div>
+                    <!-- 左第三部分 音乐专辑 -->
+                    <div class="left3-newAlums">
+                        <!-- 音乐专辑导航 -->
+                        <div class="newAlums-header">
+                            <span class="left3-Mtitle">新碟榜</span>
+                            <ul class="left3-titles">
+                                <li><a href="#"  class="filter tactive">最热</a></li>|
+                                <li><a href="#"  class="filter">华语</a></li>|
+                                <li><a href="#"  class="filter">欧美</a></li>|
+                                <li><a href="#"  class="filter">日韩</a></li>|
+                                <li><a href="#"  class="filter">单曲</a></li>
+                            </ul>
+                            <script type="text/javascript">
+                                let filter1 = document.getElementsByClassName("filter")
+                                for(let i=0;i<filter1.length;i++){
+                                    filter1[i].addEventListener('click',function(){
+                                        filter1[i].classList.add('tactive')
+                                        for(let j=0;j<filter1.length;j++){
+                                            if(i!=j){
+                                                filter1[j].classList.remove('tactive')
+                                            }
+                                        }
+                                    })
+                                }
+                            </script>
+                            <a href="#" target="_blank" class="left3-more more">更多</a>
+                        </div>
+                        <!-- 音乐专辑内容 -->
+                        <div class="newAlums-content">
+                            <!-- 1 -->
+                            <div class="newAlums-item">
+                                <div class="newAlums-item-content">
+                                    <a href="#" target="_blank" > 
+                                        <div class="newAlums-item-img">
+                                            <img src="img/newAlums1.jpg" alt="" width="135" height="135">
+                                        </div>
+                                    </a>
+                                    <a href="#" target="_blank" class="newAlums-item-title">重启之极海听雷 原声音乐专辑</a>
+                                    <p>朱一龙,陈明昊,毛晓彤,周深,刘畅,李常超,张韶涵,瞿颖,赵方婧,小老虎,黄俊捷</p>
+                                    <div class="newAlums-item-star">
+                                        <span class="star45"style="background:url(img/stars.png) no-repeat 0px -11px;"></span>
+                                        <span class="score">9.3</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                            <div class="newAlums-item">
+                                <div class="newAlums-item-content">
+                                    <a href="#" target="_blank" > 
+                                        <div class="newAlums-item-img">
+                                            <img src="img/newAlums2.jpg" alt="" width="135" height="135">
+                                        </div>
+                                    </a>
+                                    <a href="#" target="_blank" class="newAlums-item-title">肆百击</a>
+                                    <p>王源 Roy Wang</p>
+                                    <div class="newAlums-item-star">
+                                        <span class="star45" style="background:url(img/stars.png) no-repeat 0px -11px;"></span>
+                                        <span class="score">9.0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 3 -->
+                            <div class="newAlums-item">
+                                <div class="newAlums-item-content">
+                                    <a href="#" target="_blank" > 
+                                        <div class="newAlums-item-img">
+                                            <img src="img/newAlums3.jpg" alt="" width="135" height="135">
+                                        </div>
+                                    </a>
+                                    <a href="#" target="_blank" class="newAlums-item-title">María</a>
+                                    <p>화사,华莎</p>
+                                    <div class="newAlums-item-star">
+                                        <span class="star45"style="background:url(img/stars.png) no-repeat 0px -22px;"></span>
+                                        <span class="score">8.4</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 4 -->
+                            <div class="newAlums-item">
+                                <div class="newAlums-item-content">
+                                    <a href="#" target="_blank" > 
+                                        <div class="newAlums-item-img">
+                                            <img src="img/newAlums4.jpg" alt="" width="135" height="135">
+                                        </div>
+                                    </a>
+                                    <a href="#" target="_blank" class="newAlums-item-title">Monster</a>
+                                    <p>레드벨벳-아이린&슬기,Red Velvet - IRENE & SEULGI</p>
+                                    <div class="newAlums-item-star">
+                                        <span class="star45"style="background:url(img/stars.png) no-repeat 0px -33px;"></span>
+                                        <span class="score">7.2</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 5 -->
+                            <div class="newAlums-item">
+                                <div class="newAlums-item-content">
+                                    <a href="#" target="_blank" > 
+                                        <div class="newAlums-item-img">
+                                            <img src="img/newAlums5.jpg" alt="" width="135" height="135">
+                                        </div>
+                                    </a>
+                                    <a href="#" target="_blank" class="newAlums-item-title">1집 10억뷰 1 Billion Views</a>
+                                    <p>EXO-SC</p>
+                                    <div class="newAlums-item-star">
+                                        <span class="star45"style="background:url(img/stars.png) no-repeat 0px -22px;"></span>
+                                        <span class="score">7.7</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 6 -->
+                            <div class="newAlums-item">
+                                <div class="newAlums-item-content">
+                                    <a href="#" target="_blank" > 
+                                        <div class="newAlums-item-img">
+                                            <img src="img/newAlums6.jpg" alt="" width="135" height="135">
+                                        </div>
+                                    </a>
+                                    <a href="#" target="_blank" class="newAlums-item-title">赤子白仙</a>
+                                    <p>刺猬乐队 Hedgehog Band</p>
+                                    <div class="newAlums-item-star">
+                                        <span class="star45"style="background:url(img/stars.png) no-repeat 0px -44px;"></span>
+                                        <span class="score">6.9</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 7 -->
+                            <div class="newAlums-item">
+                                <div class="newAlums-item-content">
+                                    <a href="#" target="_blank" > 
+                                        <div class="newAlums-item-img">
+                                            <img src="img/newAlums7.jpg" alt="" width="135" height="135">
+                                        </div>
+                                    </a>
+                                    <a href="#" target="_blank" class="newAlums-item-title">Brightest Blue</a>
+                                    <p>Ellie Goulding</p>
+                                    <div class="newAlums-item-star">
+                                        <span class="star45"style="background:url(img/stars.png) no-repeat 0px -44px;"></span>
+                                        <span class="score">6.7</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 8 -->
+                            <div class="newAlums-item">
+                                <div class="newAlums-item-content">
+                                    <a href="#" target="_blank" > 
+                                        <div class="newAlums-item-img">
+                                            <img src="img/newAlums8.jpg" alt="" width="135" height="135">
+                                        </div>
+                                    </a>
+                                    <a href="#" target="_blank" class="newAlums-item-title">Smile</a>
+                                    <p>Katy Perry</p>
+                                    <div class="newAlums-item-star">
+                                        <span class="star45" style="background:url(img/stars.png) no-repeat 0px -66px;"></span>
+                                        <span class="score">4.6</span>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <!-- 左第四部分 近期热门歌单 -->
+                    <div class="left4-hotSongs">
+                        <!-- 热门歌单导航 -->
+                        <div class="hotSongs-header">
+                            <span class="left4-Mtitle">近期热门歌单</span>
+                            <ul class="left4-titles">
+                                <li><a href="#"   class="filter1 tactive">最热</a></li>|
+                                <li><a href="#"   class="filter1">流行</a></li>|
+                                <li><a href="#"  class="filter1">摇滚</a></li>|
+                                <li><a href="#"  class="filter1">民谣</a></li>|
+                                <li><a href="#"  class="filter1">原声</a></li>
+                            </ul>
+                            <script type="text/javascript">
+                                let filter2 = document.getElementsByClassName("filter1")
+                                for(let i=0;i<filter2.length;i++){
+                                    filter2[i].addEventListener('click',function(){
+                                        filter2[i].classList.add('tactive')
+                                        for(let j=0;j<filter2.length;j++){
+                                            if(i!=j){
+                                                filter2[j].classList.remove('tactive')
+                                            }
+                                        }
+                                    })
+                                }
+                            </script>
+                            <a href="#" target="_blank" class="left4-more more">更多</a>
+                        </div>
+                        <!-- 热门歌单内容 -->
+                        <div class="hotSongs-content">
+                            <!-- 1 -->
+                            <div class="hotSongs-item">
+                                <div class="hotSongs-item-content">
+                                    <a href="#" target="_blank" class="hotSongs-item-img">
+                                        <img src="img/hotSongs1.jpg" alt="" width="41" height="41">
+                                        <span class="hotSongs-icon">
+                                            <i class="hotSongs-icon-play"></i>
+                                        </span>
+                                    </a>
+                                    <h3>
+                                        <a href="" class="hotSongs-item-title">Chill歌单｜午后独享时光</a>
+                                        <span style="color: #999;">（15）</span>
+                                    </h3>
+
+                                    <p class="desc">
+                                        <a href="">illchilli</a>
+                                        <span class="line">制作</span>|
+                                        <span>159</span>
+                                        <span>收藏</span>
+                                    </p>
+                                    <p class="hotSongs-item-intro">1.Tupelo Honey</p>
+                                    <p class="hotSongs-item-intro">2.Is You Is Or Is You Ain't My Baby</p>
+                                    <p class="hotSongs-item-intro">3.Breaking Up Is Hard To Do</p>
+                                    <p class="hotSongs-item-intro">...</p>
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                            <div class="hotSongs-item">
+                                <div class="hotSongs-item-content">
+                                    <a href="#" target="_blank" class="hotSongs-item-img">
+                                        <img src="img/hotSongs2.jpg" alt="" width="41" height="41">
+                                        <span class="hotSongs-icon">
+                                            <i class="hotSongs-icon-play"></i>
+                                        </span>
+                                    </a>
+                                    <h3>
+                                        <a href="" class="hotSongs-item-title">「华语」在穿梭的人群中给自己最好的情歌</a>
+                                        <span style="color: #999;">（32）</span>
+                                    </h3>
+
+                                    <p class="desc">
+                                        <a href="">LinXiaoYue</a>
+                                        <span class="line">制作</span>|
+                                        <span>272</span>
+                                        <span>收藏</span>
+                                    </p>
+                                    <p class="hotSongs-item-intro">1.我愿意</p>
+                                    <p class="hotSongs-item-intro">2.因为爱情</p>
+                                    <p class="hotSongs-item-intro">3.看海</p>
+                                    <p class="hotSongs-item-intro">...</p>
+                                </div>
+                            </div>
+                            <!-- 3 -->
+                            <div class="hotSongs-item">
+                                <div class="hotSongs-item-content">
+                                    <a href="#" target="_blank" class="hotSongs-item-img">
+                                        <img src="img/hotSongs3.jpg" alt="" width="41" height="41">
+                                        <span class="hotSongs-icon">
+                                            <i class="hotSongs-icon-play"></i>
+                                        </span>
+                                    </a>
+                                    <h3>
+                                        <a href="" class="hotSongs-item-title">「治愈钢琴」想把这世界的美好都留给你</a>
+                                        <span style="color: #999;">（19）</span>
+                                    </h3>
+
+                                    <p class="desc">
+                                        <a href="">停云</a>
+                                        <span class="line">制作</span>|
+                                        <span>226</span>
+                                        <span>收藏</span>
+                                    </p>
+                                    <p class="hotSongs-item-intro">1.Clair De Lune</p>
+                                    <p class="hotSongs-item-intro">2.En Bateau</p>
+                                    <p class="hotSongs-item-intro">3.Book I - No.1, Danseuses de Delphes</p>
+                                    <p class="hotSongs-item-intro">...</p>
+                                </div>
+                            </div>
+                            <!-- 4 --> <div class="hotSongs-item">
+                                <div class="hotSongs-item-content">
+                                    <a href="#" target="_blank" class="hotSongs-item-img">
+                                        <img src="img/hotSongs4.jpg" alt="" width="41" height="41">
+                                        <span class="hotSongs-icon">
+                                            <i class="hotSongs-icon-play"></i>
+                                        </span>
+                                    </a>
+                                    <h3>
+                                        <a href="" class="hotSongs-item-title">去朝阳公园遛弯儿时带上这些歌儿</a>
+                                        <span style="color: #999;">（15）</span>
+                                    </h3>
+
+                                    <p class="desc">
+                                        <a href="">苏七</a>
+                                        <span class="line">制作</span>|
+                                        <span>165</span>
+                                        <span>收藏</span>
+                                    </p>
+                                    <p class="hotSongs-item-intro">1.我喜欢 (Live)</p>
+                                    <p class="hotSongs-item-intro">2.我喜欢</p>
+                                    <p class="hotSongs-item-intro">3.夏天的梦是什么颜色的呢 </p>
+                                    <p class="hotSongs-item-intro">...</p>
+                                </div>
+                            </div>
+                            <!-- 5 -->
+                            <div class="hotSongs-item">
+                                <div class="hotSongs-item-content">
+                                    <a href="#" target="_blank" class="hotSongs-item-img">
+                                        <img src="img/hotSongs5.jpg" alt="" width="41" height="41">
+                                        <span class="hotSongs-icon">
+                                            <i class="hotSongs-icon-play"></i>
+                                        </span>
+                                    </a>
+                                    <h3>
+                                        <a href="" class="hotSongs-item-title">NO.6</a>
+                                        <span style="color: #999;">（19）</span>
+                                    </h3>
+
+                                    <p class="desc">
+                                        <a href="">柠檬脆饼干</a>
+                                        <span class="line">制作</span>|
+                                        <span>0</span>
+                                        <span>收藏</span>
+                                    </p>
+                                    <p class="hotSongs-item-intro">1.逃不掉</p>
+                                    <p class="hotSongs-item-intro">2.微光（电视剧《何以笙箫默》插曲）</p>
+                                    <p class="hotSongs-item-intro">3.Zombie</p>
+                                    <p class="hotSongs-item-intro">...</p>
+                                </div>
+                            </div>
+                            <!-- 6 -->
+                            <div class="hotSongs-item">
+                                <div class="hotSongs-item-content">
+                                    <a href="#" target="_blank" class="hotSongs-item-img">
+                                        <img src="img/hotSongs6.jpg" alt="" width="41" height="41">
+                                        <span class="hotSongs-icon">
+                                            <i class="hotSongs-icon-play"></i>
+                                        </span>
+                                    </a>
+                                    <h3>
+                                        <a href="" class="hotSongs-item-title">黄龄：转音歌姬，媚到骨子里</a>
+                                        <span style="color: #999;">（11）</span>
+                                    </h3>
+
+                                    <p class="desc">
+                                        <a href="">锅炉不是锅</a>
+                                        <span class="line">制作</span>|
+                                        <span>218</span>
+                                        <span>收藏</span>
+                                    </p>
+                                    <p class="hotSongs-item-intro">1.High 歌</p>
+                                    <p class="hotSongs-item-intro">2.风月</p>
+                                    <p class="hotSongs-item-intro">3.痒</p>
+                                    <p class="hotSongs-item-intro">...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 右 -->
+                <div class="Mcontent-right">
+                    <!-- 右第一部分 我要加入 -->
+
+                    <div class="right1-join">
+                        <!-- 三个小板块 -->
+                        <div class="join-block">
+                            <h2><a href="#" target="_blank" class="join-block-content">47484</a></h2>
+                            <p>音乐人</p>
+                        </div>
+                        <div class="join-block">
+                            <h2><a href="#" target="_blank" class="join-block-content">2732</a></h2>
+                            <p>播客</p>
+                        </div>
+                        <div class="join-block">
+                            <h2><a href="#" target="_blank" class="join-block-content">1241</a></h2>
+                            <p>厂牌</p>
+                        </div>
+                        <!-- 我要加入的按钮 -->
+                        <div class="join-botton">
+                            <a href="#" target="_blank" class="join-botton-content">我要加入</a>
+                        </div>
+                    </div>
+                    <!-- 右第二部分 热门音乐人分类 -->
+                    <div class="right2-hotArtists">
+                        <!-- 头部 标题 跟 更多 -->
+                        <div class="hotArtists-header">
+                            <div class="hotArtists-header-title">热门音乐人分类</div>
+                            <div class="hotArtists-header-more">
+                                <a href="#" target="_blank"class="more">更多</a>
+                            </div>
+                        </div>
+                        <!-- 热门音乐人分类内容 -->
+                        <div class="hotArtists-content">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="#" target="_blank" >流行</a></td>
+                                        <td><a href="#" target="_blank" >轻音乐</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#" target="_blank" >摇滚</a></td>
+                                        <td><a href="#" target="_blank" >古典</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#" target="_blank" >电子</a></td>
+                                        <td><a href="#" target="_blank" >世界音乐</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#" target="_blank" >民谣</a></td>
+                                        <td><a href="#" target="_blank" >说唱</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#" target="_blank" >爵士</a></td>
+                                        <td><a href="#" target="_blank" >原声</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- 右第三部分 本周单曲榜 -->
+                    <div class="right3-hotArtistSongs">
+                        <!-- 本周单曲榜的顶部标题和播放全部 -->
+                        <div class="hotArtistsSongs-header">
+                            <span style="font-size: 15px;">本周单曲榜</span>
+                            <a href="#" target="_blank">
+                                 <i class="hotASongs-header-icon"></i>
+                                <span style="padding-left: 10px;">&nbsp;播放全部</span>
+                            </a>
+                        </div>
+                        <!-- 本周单曲榜内容 -->
+                        <div class="hotArtistsSongs-content">
+                            <!-- 本周单曲榜的导航 -->
+                            <ul class="hotArtistsSons-content-titles">
+                                <li><a href="#" target="_blank" class="tactive">最热</a></li>|
+                                <li><a href="#" target="_blank"  >摇滚</a></li>|
+                                <li><a href="#" target="_blank" >民谣</a></li>|
+                                <li><a href="#" target="_blank" >流行</a></li>|
+                                <li><a href="#" target="_blank" >电子</a></li>|
+                                <li><a href="#" target="_blank" >说唱</a></li>
+                            </ul>
+                            <!-- 本周单曲榜的音乐内容 -->
+                            <ul class="hotArtistsSons-content-songs">
+                                <!-- 1 -->
+                                <li class="song">
+                                    <!-- 歌曲图片 -->
+                                    <div class="song-img">
+                                        <img src="img/song1.jpg" alt="" width="48" height="48">
+                                        <span class="song-img-icon">
+                                            <i class="song-img-playIcon"></i>
+                                        </span>
+                                    </div>
+                                    <!-- 歌曲名称，作者，播放次数  -->
+                                    <h3>回忆钢琴 demo</h3>
+                                    <p>
+                                        <span>Cottonseed</span>
+                                        <span>/</span>
+                                        <span>1173</span>
+                                        <span>次播放</span>
+                                    </p>
+                                    <span class="rank">1</span>
+                                </li>
+                                <!-- 2 -->
+                                <li class="song">
+                                    <!-- 歌曲图片 -->
+                                    <div class="song-img">
+                                        <img src="img/song2.jpg" alt="" width="48" height="48">
+                                        <span class="song-img-icon">
+                                            <i class="song-img-playIcon"></i>
+                                        </span>
+                                    </div>
+                                    <!-- 歌曲名称，作者，播放次数  -->
+                                    <h3>2020.06-岛主（动森新手歌）</h3>
+                                    <p>
+                                        <span>我爱陈绮贞</span>
+                                        <span>/</span>
+                                        <span>2434</span>
+                                        <span>次播放</span>
+                                    </p>
+                                    <span class="rank">2</span>
+                                </li>
+                                <!-- 3 -->
+                                <li class="song">
+                                    <!-- 歌曲图片 -->
+                                    <div class="song-img">
+                                        <img src="img/song3.jpg" alt="" width="48" height="48">
+                                        <span class="song-img-icon">
+                                            <i class="song-img-playIcon"></i>
+                                        </span>
+                                    </div>
+                                    <!-- 歌曲名称，作者，播放次数  -->
+                                    <h3>小白船</h3>
+                                    <p>
+                                        <span>DA.V</span>
+                                        <span>/</span>
+                                        <span>925</span>
+                                        <span>次播放</span>
+                                    </p>
+                                    <span class="rank">3</span>
+                                </li>
+                                <!-- 4 -->
+                                <li class="song">
+                                    <!-- 歌曲图片 -->
+                                    <div class="song-img">
+                                        <img src="img/song4.jpg" alt="" width="48" height="48">
+                                        <span class="song-img-icon">
+                                            <i class="song-img-playIcon"></i>
+                                        </span>
+                                    </div>
+                                    <!-- 歌曲名称，作者，播放次数  -->
+                                    <h3>妈妈 你懂我的梦吗（demo）</h3>
+                                    <p>
+                                        <span>郑荆沙</span>
+                                        <span>/</span>
+                                        <span>654</span>
+                                        <span>次播放</span>
+                                    </p>
+                                    <span class="rank">4</span>
+                                </li>
+                                <!-- 5 -->
+                                <li class="song">
+                                    <!-- 歌曲图片 -->
+                                    <div class="song-img">
+                                        <img src="img/song5.jpg" alt="" width="48" height="48">
+                                        <span class="song-img-icon">
+                                            <i class="song-img-playIcon"></i>
+                                        </span>
+                                    </div>
+                                    <!-- 歌曲名称，作者，播放次数  -->
+                                    <h3>狗男女只能租房一辈子(Prod by RedRumMusic)</h3>
+                                    <p>
+                                        <span>王潇</span>
+                                        <span>/</span>
+                                        <span>260</span>
+                                        <span>次播放</span>
+                                    </p>
+                                    <span class="rank">5</span>
+                                </li>
+                                <!-- 6 -->
+                                <li class="song">
+                                    <!-- 歌曲图片 -->
+                                    <div class="song-img">
+                                        <img src="img/song6.jpg" alt="" width="48" height="48">
+                                        <span class="song-img-icon">
+                                            <i class="song-img-playIcon"></i>
+                                        </span>
+                                    </div>
+                                    <!-- 歌曲名称，作者，播放次数  -->
+                                    <h3>生哙着势（DEMO)</h3>
+                                    <p>
+                                        <span>六甲番</span>
+                                        <span>/</span>
+                                        <span>438</span>
+                                        <span>次播放</span>
+                                    </p>
+                                    <span class="rank">6</span>
+                                </li>
+                                <!-- 7 -->
+                                <li class="song">
+                                    <!-- 歌曲图片 -->
+                                    <div class="song-img">
+                                        <img src="img/song7.jpg" alt="" width="48" height="48">
+                                        <span class="song-img-icon">
+                                            <i class="song-img-playIcon"></i>
+                                        </span>
+                                    </div>
+                                    <!-- 歌曲名称，作者，播放次数  -->
+                                    <h3>Corona 1</h3>
+                                    <p>
+                                        <span>川中茶</span>
+                                        <span>/</span>
+                                        <span>101</span>
+                                        <span>次播放</span>
+                                    </p>
+                                    <span class="rank">7</span>
+                                </li>
+                                <!-- 8 -->
+                                <li class="song">
+                                    <!-- 歌曲图片 -->
+                                    <div class="song-img">
+                                        <img src="img/song8.jpg" alt="" width="48" height="48">
+                                        <span class="song-img-icon">
+                                            <i class="song-img-playIcon"></i>
+                                        </span>
+                                    </div>
+                                    <!-- 歌曲名称，作者，播放次数  -->
+                                    <h3>最近还不是很丧</h3>
+                                    <p>
+                                        <span>shamelesslee</span>
+                                        <span>/</span>
+                                        <span>2127</span>
+                                        <span>次播放</span>
+                                    </p>
+                                    <span class="rank">8</span>
+                                </li>
+                                <!-- 9 -->
+                                <li class="song">
+                                    <!-- 歌曲图片 -->
+                                    <div class="song-img">
+                                        <img src="img/song9.jpg" alt="" width="48" height="48">
+                                        <span class="song-img-icon">
+                                            <i class="song-img-playIcon"></i>
+                                        </span>
+                                    </div>
+                                    <!-- 歌曲名称，作者，播放次数  -->
+                                    <h3>废土</h3>
+                                    <p>
+                                        <span>库凯格李</span>
+                                        <span>/</span>
+                                        <span>303</span>
+                                        <span>次播放</span>
+                                    </p>
+                                    <span class="rank">9</span>
+                                </li>
+                                <!-- 10 -->
+                                <li class="song">
+                                    <!-- 歌曲图片 -->
+                                    <div class="song-img">
+                                        <img src="img/song1.jpg" alt="" width="48" height="48">
+                                        <span class="song-img-icon">
+                                            <i class="song-img-playIcon"></i>
+                                        </span>
+                                    </div>
+                                    <!-- 歌曲名称，作者，播放次数  -->
+                                    <h3>Beauvarlet-Charpentier: La Remond</h3>
+                                    <p>
+                                        <span>Alternative for Baroque</span>
+                                        <span>/</span>
+                                        <span>1635</span>
+                                        <span>次播放</span>
+                                    </p>
+                                    <span class="rank">10</span>
+                                </li>
+                            </ul>
+                          
+                            
+                        </div>
+                    </div>
+                    <!-- 右第四部分 豆瓣音乐250 -->
+                    <div class="right4-musics">
+                       <div class="musics-header">
+                           <h2>豆瓣音乐250
+                                <span>
+                                    <a href="#" target="_blank" class="more">更多</a>
+                                </span>
+                            </h2>
+                       </div>
+                       <div class="musics-content">
+                            <!-- 1 -->
+                            <ul>
+                                <li>
+                                    <a href="#" >
+                                        <img src="img/musics1.jpg" alt="" class="musics-img" width="80" height="80">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="musics-link">Under the Radar</a>
+                                </li>
+                            </ul>
+                            <!-- 2 -->
+                            <ul>
+                                <li>
+                                    <a href="#" >
+                                        <img src="img/musics2.jpg" alt="" class="musics-img" width="80" height="80">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="musics-link">少年故事</a>
+                                </li>
+                            </ul>
+                            <!-- 3 -->
+                            <ul>
+                                <li>
+                                    <a href="#" >
+                                        <img src="img/musics3.jpg" alt="" class="musics-img" width="80" height="80">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="musics-link">These Friends Of Mine</a>
+                                </li>
+                            </ul>
+                            <!-- 4 -->
+                            <ul>
+                                <li>
+                                    <a href="#" >
+                                        <img src="img/musics4.jpg" alt="" class="musics-img" width="80" height="80">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="musics-link">黑豹</a>
+                                </li>
+                            </ul>
+                            <!-- 5 -->
+                            <ul>
+                                <li>
+                                    <a href="#" >
+                                        <img src="img/musics5.jpg" alt="" class="musics-img" width="80" height="80">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="musics-link">绝世名伶</a>
+                                </li>
+                            </ul>
+                            <!-- 6 -->
+                            <ul>
+                                <li>
+                                    <a href="#" >
+                                        <img src="img/musics6.jpg" alt="" class="musics-img" width="80" height="80">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="musics-link">我爱南京</a>
+                                </li>
+                            </ul>
+                            <!-- 7 -->
+                            <ul>
+                                <li>
+                                    <a href="#" >
+                                        <img src="img/musics7.jpg" alt="" class="musics-img" width="80" height="80">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="musics-link">认了吧</a>
+                                </li>
+                            </ul>
+                            <!-- 8 -->
+                            <ul>
+                                <li>
+                                    <a href="#" >
+                                        <img src="img/musics8.jpg" alt="" class="musics-img" width="80" height="80">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="musics-link">Demo 3</a>
+                                </li>
+                            </ul>
+                            <!-- 9 -->
+                            <ul>
+                                <li>
+                                    <a href="#" >
+                                        <img src="img/musics9.jpg" alt="" class="musics-img" width="80" height="80">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="musics-link">我要的幸福</a>
+                                </li>
+                            </ul>
+                       </div>
+                    </div>
+                    <!-- 右第五部分 豆瓣FM客户端 -->
+                    <div class="right5-KeHuDuan">
+                        <a href="#" target="_blank" class="KeHuDuan-a">
+                            <span class="KeHuDuan-icon"></span>
+                            <span class="KeHuDuan-title">豆瓣FM客户端</span>
+                            <span style="display: block;">让好音乐继续</span>
+                        </a>
+                    </div>
+                    <!-- 右第六部分 豆瓣微信小程序 -->
+                    <div class="right6-wxXiaochengxuCode">
+                        <div class="wxCode">
+                            <img src="img/wx_code.jpg" alt="" class="wxCode-img" width="200" height="200">
+                            <div class="wxCode-lable">
+                                <p class="wxCode-title">豆瓣音乐人小程序</p>
+                                <p class="wxCode-font">发现当下最酷独立音乐</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 右第七部分 联系我们 -->
+                    <div class="right7-LianXiWomen">
+                        <h2>
+                            "联系我们"
+                            <a href="#" target="_blank" class="more">aristis@douban.com</a>
+                        </h2>
+                        <ul class="lian-list">
+                            <!-- 1 ,1 -->
+                            <li>
+                                <a href="#" target="_blank" class="lian-icon"><img src="img/lian1.png" alt="" width="40" height="40"></a>
+                                <a href="#" target="_blank" class="lian-title">音乐人小站</a>
+                            </li>
+                            <!-- 1,2 -->
+                            <li>
+                                <a href="#" target="_blank" class="lian-icon"><img src="img/lian2.png" alt="" width="40" height="40"></a>
+                                <a href="#" target="_blank" class="lian-title">音乐人微博</a>
+                            </li>
+                            <!-- 1,3 -->
+                            <li>
+                                <a href="#" target="_blank" class="lian-icon"><img src="img/lian3.png" alt="" width="40" height="40"></a>
+                                <a href="#" target="_blank" class="lian-title">音乐人微信</a>
+                            </li>
+                        </ul>
+                        <ul class="lian-list">
+                            <!-- 2,1 -->
+                            <li>
+                                <a href="#" target="_blank" class="lian-icon"><img src="img/lian4.jpg" alt="" width="40" height="40"></a>
+                                <a href="#" target="_blank" class="lian-title">FM小站</a>
+                            </li>
+                            <!-- 2,2 -->
+                            <li>
+                                <a href="#" target="_blank" class="lian-icon"><img src="img/lian5.png" alt="" width="40" height="40"></a>
+                                <a href="#" target="_blank" class="lian-title">FM微博</a>
+                            </li>
+                            <!-- 2,3 -->
+                            <li>
+                                <a href="#" target="_blank" class="lian-icon"><img src="img/lian6.png" alt="" width="40" height="40"></a>
+                                <a href="#" target="_blank" class="lian-title">FM微信</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="right8-no"></div> -->
+                </div>
+            </div>
+        </div>
+        <!-- 底部内容 -->
+        <div id="footer">
+            <!-- 左 -->
+            <span class="footer-left">@ 2005-2020 douban.com, all rights reserved 北京豆网科技有限公司</span>
+            <!-- 右 -->
+            <span class="footer-right">
+                <a href="#">关于豆瓣</a>
+                <a href="#">在豆瓣工作</a>
+                <a href="#">联系我们</a>
+                <a href="#">法律声明</a>
+                <a href="#">帮助中心</a>
+                <a href="#">手机音乐</a>
+                <a href="#">豆瓣广告</a>
+            </span>
+        </div>
+    </div>
+
+</body>
+</html>

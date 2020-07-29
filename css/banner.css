@@ -1,0 +1,181 @@
+.banner{
+    margin-bottom: 25px;
+    background-size: contain;
+     background-position: -webkit-calc(50% - 305px) top;/*定义背景图像位置*/
+    background-position: calc(50% - 305px) top;
+    background-repeat: no-repeat;
+    background-color: #edf4ed;
+    background-image: url(https://img9.doubanio.com/view/puppy_image/raw/public/16ad990ec23uwn790d4.jpg);
+    width: 100%;
+    height: 304px;
+    margin-top: 69px;
+    position: relative;
+}
+.banner-center{
+    width: 150px;  height: 120px; top:100px;left:755px ;position: absolute;
+}
+.banner-center a{
+    color: #fff;
+}
+.banner-center a:hover{
+  background: #41ac52;
+}
+.banner-right{
+    width: 300px;height: 300px;float: right;margin-right: 200px;
+    display:block;
+}
+.right-title{
+    width:280px;height:27px; text-align: center;
+margin-top: 30px;}
+.right-title ul li{
+    display: inline-block;
+width: 45%;
+
+    cursor: pointer;
+    font-size: 13px;
+line-height: 2;
+}
+.banner-account{
+    width: 280px;height: 224px;
+}
+.banner-form{
+    width: 280px;
+    height: 149px;
+   display: block;
+  
+}
+.banner-form-titles{
+    color: #9b9b9b;
+        margin-bottom: 10px;
+        font-size: 12px;
+        margin-top: 10px;
+        text-align: left;
+ 
+}
+.banner-form-titles a{
+    color: #41ac52;
+}
+.banner-form-raw{
+    width: 280px;
+        font-size: 13px;
+        padding: 10px;
+        border-radius: 3px;
+        box-sizing: border-box;
+        border: 1px solid #e4e6e5;
+     height: 37px;
+     background: #fff;
+     margin-top: 10px;
+    
+}
+.banner-form-raw a{
+    color: #41ac52;  
+}
+.banner-form-raw a:hover{
+    color: #41ac52;
+    background: transparent;
+}
+
+.banner-form-raw input{
+   outline: none;
+} 
+.banner-form2{
+    width: 280px;
+    height: 149px;
+  display: none;
+  
+}
+.banner-right img:hover{
+    cursor: pointer;
+}
+.banner-right2{
+    float: right;margin-right: 200px;
+    display: none;
+  
+    width: 300px;
+    height: 300px;
+}
+.code-text{
+    border-radius: 12px;
+    margin-top: 10px;
+    padding: 3px 20px;
+    color: #494949;
+    background-color: rgba(0,0,0,.08);
+    background-image: none;
+width: 150px;
+height: 20px;
+font-size: 13px;
+}
+
+.lione{
+    border-bottom: 1px solid #494949;
+    font-weight: 660;
+    color: #333;
+}
+.litwo{
+    color:#9b9b9b;
+
+}
+.app-qr-expand{
+font: 12px Helvetica,Arial,sans-serif;
+margin: 0;
+display: none;
+position: absolute;
+top: 164px;
+left: 878px;
+padding: 20px 20px 5px;
+border-radius: 2px;
+text-align: center;
+font-size: 13px;
+color: #666;
+background: #fff;
+line-height: 13px;
+white-space: nowrap;}
+.bt{
+    height: 34px;
+    line-height: 34px;
+    font-weight: 400;
+    width: 280px;
+   background-color: rgba(66,189,86,.5);
+   cursor: default;
+   color: #fff;
+   margin-top: 15PX;
+   font-size: 15PX; text-align: center;
+}
+.bt a{
+    color: #fff;
+   
+}
+.bt a:hover{
+    background: transparent;
+}
+.logain-ft{
+  width: 280px;
+  height: 40px;
+  border-bottom: 1px solid #bab6b5;
+  text-align: center;
+
+}
+.logain-chcex{
+float: left;
+font-size: 13px;
+margin-top: 10px;
+}
+.logain-link{
+float: right;
+font-size: 13px;
+margin-top: 10px;
+}
+.logain-link a{
+    color: #41ac52;
+}
+.logain-link a:hover{
+   background: #edf4ed;
+   color: #41ac52;
+}
+.third{
+    width: 250px;
+    height: 33px;
+    font-size: 11px;
+    color: #9b9b9b;
+    margin-top: 10px;
+}

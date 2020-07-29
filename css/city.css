@@ -1,0 +1,192 @@
+.citys{
+    width: 100%;height: 500px; background: #f7f7f7;
+}
+.citys-content{
+    width:974px ;height: 401px;margin: 0 auto; margin-top: 50px;
+}
+.citys-left{
+    width: 100px;height: 139px;margin-top: 30px;
+    float: left;
+}
+.citys-left h2{
+    color: #EC5303;
+    font-size: 24px;
+
+}
+.citys-left ul{
+margin-top: 15px;
+}
+.citys-left a{
+text-decoration: none;
+color: #664433;
+font-size: 14px;
+}
+.citys-left a:hover{
+background: #37a;
+color: white;
+}
+.citys-left li{
+    margin-top: 8px;
+}
+.citys-center{
+    width: 535px;height: 310px;;float: left;
+}
+
+.citys-center h2 {
+    font: 15px Arial, Helvetica, sans-serif;
+    color: #072;
+ margin-top: 40px;
+   
+
+}
+.citys-center a{
+  color: #643;
+  text-decoration: none;
+  font-size: 12px;
+}
+.citys-center a:hover{
+    background: #37a;
+    color: white;
+}
+.citys-center-show{
+    width: 535px;
+    height: 276px;
+    margin-top: 15px;
+}
+.citys-center-content{
+    width: 248px;height: 100px;
+
+margin-left: 10px;
+margin-top: 10px;
+
+}
+.citys-center-show li{
+    float: left;
+    
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+.citys-img{
+   width: 70px;height: 90px;float: left;
+}
+.citys-info{
+    height: 100px;width: 166px; float: left;
+   margin-left: 10px;
+}
+.citys-title{
+    width: 163px;height: 32px;
+}
+.citys-time{
+    width: 168px;height: 19px;
+}
+.citys-right{
+    width: 265px;height: 341px;float: left;
+    margin-left: 15px;
+}
+.citys-right h2{
+    font: 15px Arial, Helvetica, sans-serif;
+        color: #072;
+        margin-top: 40px;
+       
+}
+.citys-right-content{
+    width:275px;height:43px;
+    margin-top: 10px;
+}
+.citys-right-content li{
+    display: inline-block;
+  
+
+}
+.citys-right-content a{
+    text-decoration: none;
+    color: #664433;
+    
+    margin-left: 10px;
+}
+.citys-right-content a:hover{
+    color: white;
+    background: #37a;
+}
+.city-label{
+  
+        width: 100%;
+        margin-bottom: 2px;
+        font-size: 14px;
+        color: #333;
+        width: 275px;
+   
+}
+/* 
+.citys-content-title{
+  
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.citys-content-title a{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+.citys-content-title a:hover{
+    background:#37a;
+    color: white;
+}
+.citys-right-content a{
+    text-decoration: none;
+    color: #664433;
+   display: inline-block; 
+   margin-left: 8px;
+}
+.citys-right-content li{
+    float: left;
+   margin-top: 10px;
+   margin-right: 20px;
+}*/
+.fleft{
+font: 12px Helvetica,Arial,sans-serif;
+line-height: 1.5;
+color: #999;
+float: left;
+margin-top: 15px;
+}
+.bottom-left{
+    width:424px;height:96px ;
+    float: left;
+}
+.bottom-left a{
+    color: #37a;
+    text-decoration: none;
+}
+.bottom-left a:hover{
+    color:white ;
+}
+.bottom-right{
+    width: 415px;height: 110px;float: right; margin-left: 70px;
+    margin-top: 15px;
+}
+.bottom-right a{
+    text-decoration: none;
+    color: #3377AA;
+
+}
+.bottom-right a:hover{
+    background: #37a;
+    color: white;
+}
+.boottom{
+    width:100%;height: 140px;
+margin-top: 130px;
+}
+    .bottom-content{
+        width: 950px;height: 131px;margin: 0 auto;border-top:1px dashed #dcdcdc;color: #999;margin-top: 20px;
+    }

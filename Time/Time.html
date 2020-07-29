@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>豆瓣时间(豆瓣时间)</title>
+    <link rel="short icon" href="img/图标1.ico">
+    <link rel="stylesheet" href="css/timestyle.css">
+    <link rel="stylesheet" href="swiper/swiper.min.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js" ></script>    
+    <script>
+            $(function(){
+                    /***1**/
+                    $(".ln-douban").mouseover(function() {  
+                       var ln_items=document.getElementById("ln-na_appinfo");
+                       ln_items.style.display="block"; 
+                       $(".ln-na_appinfo").mouseleave(function() {
+                           ln_items.style.display="none"; 
+                           });                   
+                       });              
+            });
+    </script>
+</head>
+<body>
+
+    <!-- 顶部导航 -->
+    <div class="header">
+        <ul class="h-u">
+            <li><a href="">豆瓣</a></li>
+            <li><a href="">读书</a></li>
+            <li><a href="">电影</a></li>
+            <li><a href="">音乐</a></li>
+            <li><a href="">同城</a></li>
+            <li><a href="">小组</a></li>
+            <li><a href="">阅读</a></li>
+            <li><a href="">FM</a></li>
+            <li><a href="">时间</a></li>
+            <li><a href="">豆品</a></li>
+        </ul>
+        <div class="h-r1">
+        <div class="ln-top_nav">
+                <a class="ln-douban" href="">下载豆瓣客户端</a>
+                <div class="ln-na_appinfo ln-bxs" id="ln-na_appinfo">
+                    <p class="ln-app_title">豆瓣</p>
+                    <p class="ln-qrcode"></p>
+                    <div class="ln-download">
+                        <a href="">iPhone</a>
+                        <span>.</span>
+                        <a href="">Android</a>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        <div class="h-r2"><a href="">登录/注册</a></div>
+    </div>
+    <!-- 主体内容 -->
+    <div class="content">
+        <!-- 轮播 -->
+            <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/a1.jpg" alt="" width="585" height="257"></div>
+                      <div class="swiper-slide"><img src="img/a2.jpg" alt="" width="585" height="257"></div>
+                      <div class="swiper-slide"><img src="img/a3.png" alt="" width="585" height="257"></div>
+                      <div class="swiper-slide"><img src="img/a4.png" alt="" width="585" height="257"></div>
+                      <div class="swiper-slide"><img src="img/a5.png" alt="" width="585" height="257"></div>
+                      <div class="swiper-slide"><img src="img/a6.jpg" alt="" width="585" height="257"></div>
+                      <div class="swiper-slide"><img src="img/a7.jpg" alt="" width="585" height="257"></div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                 </div>
+                
+                  <!-- Swiper JS -->
+                  <script src="swiper/swiper.min.js"></script>
+                
+                  <!-- Initialize Swiper -->
+                  <script>
+                     var swiper = new Swiper('.swiper-container', {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        loop: true,
+                        autoplay: {
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        },
+                        pagination: {
+                          el: '.swiper-pagination',
+                          clickable: true,
+                        },
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                      });
+                  </script>
+        <!-- 小图标 -->
+        <div class="school">
+            <div class="school1">
+                <img src="img/b1.png" alt="">
+                <p>青椒学院</p>
+            </div>
+            <div class="school1">
+                <img src="img/b2.png" alt="">
+                <p>时间发现</p>
+            </div>
+            <div class="school1">
+                <img src="img/b3.png" alt="">
+                <p>全部专栏</p>
+            </div>
+            <div class="school1">
+                <img src="img/b4.png" alt="">
+                <p>签到</p>
+            </div>
+            <div class="school1">
+                <img src="img/b5.png" alt="">
+                <p>我的</p>
+            </div>
+        </div>
+        <!-- 新品尝鲜 -->
+        <div class="xinpin">
+            <p class="xinpin1">新品尝鲜：如何有效的阅读一本书</p>
+            <a href="Time-con.html">
+            <div class="x-content">
+                <div class="x-content-img1 imgbg"><div class="x-con">音频</div></div>
+                <div class="x-content-p">
+                    <div class="book1">
+                        <h4>如何读透一本书————12堂阅读写作训练课</h4>
+                        <div class="price">
+                            <span class="p-top">68.00元</span>
+                            <span class="p-bottom">98.00元</span>
+                        </div>
+                    </div>
+                    <p class="b-name">主讲人 付如初</p> 
+                    <p class="b-bottom">用书评检验你的阅读</p>
+                </div>
+            </div></a>
+            <div class="listen">
+             <div class="listen1">
+                <div class="listen1-left">
+                    <img src="img/c2.png" alt="">
+                    <div class="listen1-left-c">试听</div>
+                </div>
+                <div class="listen1-right">
+                    第十一课 深度阅读：如何“读透”一本书
+                </div>
+            </div>
+            <div class="listen2">
+                <div class="listen1-left">
+                    <img src="img/c2.png" alt="">
+                    <div class="listen1-left-c">试听</div>
+                </div>
+                <div class="listen2-right">
+                       发刊词
+                    </div>
+            </div>   
+            </div>
+        </div>
+        <!-- 夏日特惠 -->
+        <div class="tehui">
+            <p class="xinpin1">夏日特惠</p>
+            <div class="plan-c">
+                    <div class="plan-con" style="margin-top:-20px;">
+                         <div class="p-img p-bg6"><div class="x-con">音频</div></div>
+                         <p>一切美好的事物都与你有关——21天走出低自尊</p>
+                         <span class="p-top">79.00元</span><br>
+                         <span class="p-bottom">99.00元</span>
+                     </div>
+                    <div class="plan-con">
+                            <div class="p-img p-bg7"><div class="x-con">音频</div></div>
+                            <p>爱我，请先懂我——纽约大学艺术治疗师的儿童心理成长课</p>
+                            <span class="p-top">99.00元</span><br>
+                            <span class="p-bottom">199.00元</span>         
+                    </div>
+                    <div class="plan-con">
+                            <div class="p-img p-bg8"><div class="x-con">音频</div></div>
+                            <p>52倍人生——戴锦华大师电影课</p>
+                            <span class="p-top">158.00元</span><br>
+                            <span class="p-bottom">168.00元</span>
+                    </div>
+                    <div class="plan-con">
+                            <div class="p-img p-bg9"><div class="x-con">音频</div></div>
+                            <p>用性别之尺丈量世界——18堂思想课解读女性问题</p>
+                            <span class="p-top">68.00元</span><br>
+                            <span class="p-bottom">99.00元</span>
+                    </div>
+                    <div class="plan-con">
+                            <div class="p-img p-bg10"><div class="x-con">音频</div></div>
+                            <p>人心可测——姜振宇的微表情读心术</p>
+                            <span class="p-top">69.00元</span><br>
+                            <span class="p-bottom">179.00元</span>
+                    </div>
+                    <div class="plan-con">
+                            <div class="p-img p-bg1"><div class="x-con">音频</div></div>
+                            <p>我的剧本为什么比你的强——6节课跨入职业编剧大门</p>
+                            <span class="p-top">99.00元</span><br>
+                            <span class="p-bottom">179.00元</span>
+                        </div>
+                       <div class="plan-con">
+                                    <div class="p-img p-bg2"><div class="x-con">音频</div></div>
+                                    <p>一个故事的诞生——22堂创意思维写作课</p>
+                                    <span class="p-top">61.00元</span><br>
+                                    <span class="p-bottom">68.00元</span>
+                       </div>
+                       <div class="plan-con">
+                                    <div class="p-img p-bg3"><div class="x-con">音频</div></div>
+                                    <p>一碗茶的款待——日本茶道的形与心</p>
+                                    <span class="p-top">98.00元</span><br>
+                                    <span class="p-bottom">128.00元</span>
+                       </div>
+                       <div class="plan-con">
+                                    <div class="p-img p-bg4"><div class="x-con">音频</div></div>
+                                    <p>拍张好照片——跟七七学生活摄影</p>
+                                    <span class="p-top">89.00元</span><br>
+                                    <span class="p-bottom">99.00元</span>
+                       </div>
+                       <div class="plan-con">
+                                    <div class="p-img p-bg5"><div class="x-con">音频</div></div>
+                                    <p>玩•乐队——高旗和伙伴们的音乐课</p>
+                                    <span class="p-top">99.00元</span><br>
+                                    <span class="p-bottom">179.00元</span>
+                       </div>
+                 </div>
+        </div>
+        <!-- 斜杠青年养成计划 -->
+        <div class="plan">
+            <p class="xinpin1">斜杠青年自由职业养成计划</p>
+            <div class="plan-c">
+               <div class="plan-con">
+                    <div class="p-img p-bg1"><div class="x-con">音频</div></div>
+                    <p>我的剧本为什么比你的强——6节课跨入职业编剧大门</p>
+                    <span class="p-top">99.00元</span><br>
+                    <span class="p-bottom">179.00元</span>
+                </div>
+               <div class="plan-con">
+                            <div class="p-img p-bg2"><div class="x-con">音频</div></div>
+                            <p>一个故事的诞生——22堂创意思维写作课</p>
+                            <span class="p-top">61.00元</span><br>
+                            <span class="p-bottom">68.00元</span>
+               </div>
+               <div class="plan-con">
+                            <div class="p-img p-bg3"><div class="x-con">音频</div></div>
+                            <p>一碗茶的款待——日本茶道的形与心</p>
+                            <span class="p-top">98.00元</span><br>
+                            <span class="p-bottom">128.00元</span>
+               </div>
+               <div class="plan-con">
+                            <div class="p-img p-bg4"><div class="x-con">音频</div></div>
+                            <p>拍张好照片——跟七七学生活摄影</p>
+                            <span class="p-top">89.00元</span><br>
+                            <span class="p-bottom">99.00元</span>
+               </div>
+               <div class="plan-con">
+                            <div class="p-img p-bg5"><div class="x-con">音频</div></div>
+                            <p>玩•乐队——高旗和伙伴们的音乐课</p>
+                            <span class="p-top">99.00元</span><br>
+                            <span class="p-bottom">179.00元</span>
+               </div>
+            </div>
+        </div>
+        <!-- 青椒学院 -->
+        <div class="qingjiao">
+            <p class="xinpin1">青椒学院</p>
+            <div class="x-content">
+                <div class="x-content-img1 imgbg43"></div>
+                <div class="x-content-p">
+                    <div class="book1">
+                        <h4>青椒学院</h4>
+                        <div class="price">
+                            <span class="p-top">199.00元</span>
+                            <span class="p-bottom">425.00元</span>
+                        </div>
+                    </div>
+                    <p class="b-name">从最接地气的生活问题到最前沿的学科知识</p> 
+                    <p class="b-bottom">包含15个专栏，总价425元，购买此包，仅需199元就能拥有全部专栏。</p>
+                </div>
+            </div>
+            <div class="q-content">
+                <div class="q-con">
+                    <img src="img/k1.jpg" alt="">
+                    <p>作者：赵思渊</p>
+                </div>
+                <div class="q-con">
+                    <img src="img/k2.jpg" alt="">
+                    <p>作者：梁思思</p>
+                </div>
+                <div class="q-con">
+                    <img src="img/k3.jpg" alt="">
+                    <p>作者：廖彦霖</p>
+                </div>
+                <div class="q-con">
+                    <img src="img/k4.jpg" alt="">
+                    <p>作者：田洁</p>
+                </div>
+                <div class="q-con">
+                    <img src="img/k5.jpg" alt="">
+                    <p>作者：朱明</p>
+                </div>
+                <div class="q-con">
+                    <img src="img/h9.jpg" alt="">
+                    <p>七七</p>
+                </div>
+                <div class="q-con">
+                    <img src="img/h11.jpg" alt="">
+                    <p>日刻</p>
+                </div>
+            </div>
+        </div>
+        <!-- 大咖驾到 -->
+        <div class="daka">
+            <p class="xinpin1">大咖驾到</p>
+            <span class="chakangengduo">查看更多 ></span>
+            <div class="x-content x-content1">
+                <div class="x-content-img1 imgbg1"><div class="x-con">音频</div></div>
+                <div class="x-content-p">
+                    <div class="book1">
+                        <h4>醒来——北岛和朋友们的诗歌课</h4>
+                        <div class="price">
+                            <span class="p-top">128.00元</span>
+                        </div>
+                    </div>
+                    <p class="b-name">主讲人 北岛和朋友们</p> 
+                    <p class="b-bottom">北岛和朋友们为你讲述诗人传奇故事，解读文化历史背景，细析诗句幽微妙处。</p>
+                </div>
+            </div>
+            <div class="x-content x-content1">
+                    <div class="x-content-img1 imgbg2"><div class="x-con">音频</div></div>
+                    <div class="x-content-p">
+                        <div class="book1">
+                            <h4>52倍人生——戴锦华大师电影课</h4>
+                            <div class="price">
+                                <span class="p-top">158.00元</span>
+                                <span class="p-bottom">168.00元</span>
+                            </div>
+                        </div>
+                        <p class="b-name">主讲人 戴锦华</p> 
+                        <p class="b-bottom">每周为你深度解析一部世界经典电影。52周全年陪伴你看电影、学电影。</p>
+                    </div>
+                </div>
+            <div class="x-content x-content1">
+                    <div class="x-content-img1 imgbg3"><div class="x-con">音频</div></div>
+                    <div class="x-content-p">
+                        <div class="book1">
+                            <h4>白先勇细说红楼梦——从小说角度重解“红楼”</h4>
+                            <div class="price">
+                                <span class="p-top">118.00元</span>
+                                <span class="p-bottom">128.00元</span>
+                            </div>
+                        </div>
+                        <p class="b-name">主讲人 白先勇</p> 
+                        <p class="b-bottom">通过白先勇毕生对《红楼梦》的钻研体会，重新发现红楼之美。</p>
+                    </div>
+            </div>
+            <div class="x-content">
+                    <div class="x-content-img1 imgbg4"><div class="x-con">音频</div></div>
+                    <div class="x-content-p">
+                        <div class="book1">
+                            <h4>马伯庸的冷门书单</h4>
+                            <div class="price">
+                                <span class="p-top">66.00元</span>
+                                <span class="p-bottom">68.00元</span>
+                            </div>
+                        </div>
+                        <p class="b-name">主讲人 马伯庸</p> 
+                        <p class="b-bottom">鬼才马亲王，从20年阅读经验中，亲选22本隐世好书，一口气解锁4大有聊源泉，帮你收获与众不同的历史观和无极限的脑洞，让无聊的生活滚蛋。</p>
+                    </div>
+                </div>
+        </div>
+        <!-- 精品畅销 -->
+        <div class="jingping">
+                <p class="xinpin1">精品畅销</p>
+                <span class="chakangengduo">查看更多 ></span>
+                <div class="x-content x-content1">
+                    <div class="x-content-img1 imgbg5"><div class="x-con">音频</div></div>
+                    <div class="x-content-p">
+                        <div class="book1">
+                            <h4>用性别之尺丈量世界——18堂思想课解读女性问题</h4>
+                            <div class="price">
+                                <span class="p-top">68.00元</span>
+                                <span class="p-bottom">99.00元</span>
+                            </div>
+                        </div>
+                        <p class="b-name">主讲人 日刻 张念 柯倩婷</p> 
+                        <p class="b-bottom">两位中国女性主义先锋，带你探讨性别故事的起源、搭建认识性别的理论框架</p>
+                    </div>
+                </div>
+                <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg6"><div class="x-con">视频</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>黑白之间：二十八堂书法练习课</h4>
+                                <div class="price">
+                                    <span class="p-top">199.00元</span>
+                                    <span class="p-bottom">240.00元</span>                                   
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 王晶</p> 
+                            <p class="b-bottom">28堂书法技法课，从点画到创作，带你感受书法的魅力</p>
+                        </div>
+                </div>
+                 <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg7"><div class="x-con">音频</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>一个故事的诞生——22堂创意思维写作课</h4>
+                                <div class="price">
+                                   <span class="p-top">61.00元</span>
+                                    <span class="p-bottom">68.00元</span> 
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 郝景芳和创意写作大师们</p> 
+                            <p class="b-bottom">只有作家知道的写作秘籍和讲述套路</p>
+                        </div>
+                    </div>
+                <div class="x-content">
+                        <div class="x-content-img1 imgbg8"><div class="x-con">音频</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>收获一生之书——马家辉解读影响人生的24部文学经典</h4>
+                                <div class="price">
+                                    <span class="p-top">99.00元</span>
+                                    <span class="p-bottom">129.00元</span>
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 马家辉</p> 
+                            <p class="b-bottom">一本好书，一生之书。读24部文学经典，收获24个人生锦囊。</p>
+                        </div>
+                    </div>
+        </div>
+        <!--豆瓣影人PRO大师课  -->
+        <div class="douban">
+                <p class="xinpin1">豆瓣影人PRO大师课</p>
+                <span class="chakangengduo">查看更多 ></span>
+                <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg9"><div class="x-con">视频</div></div>
+                    <div class="x-content-p">
+                        <div class="book1">
+                            <h4>微电影剧作——如何在剧作中运用观众心理学</h4>
+                            <div class="price">
+                                <span class="p-top">99.00元</span>
+                            </div>
+                        </div>
+                        <p class="b-name">主讲人 刘纯羽</p> 
+                        <p class="b-bottom">如何进行微电影剧本创作，揭秘微电影是如何创作的。</p>
+                    </div>
+                </div>
+                <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg10"><div class="x-con">视频</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>电影产业破壁课——13小时重塑电影世界观</h4>
+                                <div class="price">
+                                    <span class="p-top">239.00元</span>
+                                    <span class="p-bottom">299.00元</span>                                   
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 关雅荻</p> 
+                            <p class="b-bottom">从经济、技术、艺术的角度重新理解电影</p>
+                        </div>
+                </div>
+                 <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg11"><div class="x-con">视频</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>奥斯卡最佳剪辑得主拉片《爆裂鼓手》—看剪辑大师创作全解析</h4>
+                                <div class="price">
+                                   <span class="p-top">61.00元</span>
+                                    <span class="p-bottom">68.00元</span> 
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 汤姆·克洛斯</p> 
+                            <p class="b-bottom">汤姆·克洛斯（Tom Cross），著名剪辑师。代表作品：《爆裂鼓手》《登月第一人》《爱乐之城》《马戏之王》《敌对分子》《爱若此时》《两个情人》《我们拥有夜晚》</p>
+                        </div>
+                    </div>
+                <div class="x-content">
+                        <div class="x-content-img1 imgbg12"><div class="x-con">视频</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>李安解读立体电影</h4>
+                                <div class="price">
+                                    <span class="p-top">0.00元</span>
+                                    <span class="p-bottom">9999.00元</span>
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 李安</p> 
+                        </div>
+                    </div>
+                    <div class="x-content">
+                            <div class="x-content-img1 imgbg13"><div class="x-con">视频</div></div>
+                            <div class="x-content-p">
+                                <div class="book1">
+                                    <h4>从格里菲斯到诺兰——影迷都在看的电影结构大师课</h4>
+                                    <div class="price">
+                                        <span class="p-top">199.00元</span>
+                                    </div>
+                                </div>
+                                <p class="b-name">主讲人 马家辉</p> 
+                            </div>
+                        </div>
+        </div>
+        <!-- 过渡图 -->
+        <div class="image1">
+            <img src="img/e1.jpg" alt="">
+        </div>
+        <!-- 心理情感 -->
+        <div class="xinli">
+                <p class="xinpin1">心理情感</p>
+                <span class="chakangengduo">查看更多 ></span>
+                <div class="x-content x-content1">
+                    <div class="x-content-img1 imgbg14"><div class="x-con">音频</div></div>
+                    <div class="x-content-p">
+                        <div class="book1">
+                            <h4>人性皆有裂隙——理解人格的52堂心理课</h4>
+                            <div class="price">
+                                <span class="p-top">93.00元</span>
+                                <span class="p-bottom">98.00元</span>
+                            </div>
+                        </div>
+                        <p class="b-name">主讲人 简里里</p> 
+                        <p class="b-bottom">从常见人格类型切入，了解行为背后的人格奥秘。带你钻进自己和他人的皮肤，探索我们是怎样一个人，我们如何理解世界和其他人，如何和他人相处。</p>
+                    </div>
+                </div>
+                <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg15"><div class="x-con">音频</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>控制力幻象——焦虑感背后的心理觉察</h4>
+                                <div class="price">
+                                    <span class="p-top">35.00元</span>
+                                    <span class="p-bottom">39.00元</span>
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 动机在杭州</p> 
+                            <p class="b-bottom">勇气，是用来改变能够改变的事；胸怀，是用来接纳不能改变的事。而分辨这两者的智慧，是海贤老师在这里想和你探讨的事。</p>
+                        </div>
+                </div>
+                <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg16"><div class="x-con">音频</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>成为更好的自己——许燕人格心理学32讲</h4>
+                                <div class="price">
+                                    <span class="p-top">88.00元</span>
+                                    <span class="p-bottom">98.00元</span>
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 许燕</p> 
+                            <p class="b-bottom">人格心理学帮你探索自我，答疑解惑，成就更好的自己。</p>
+                        </div>
+                    </div>
+                <div class="x-content">
+                            <div class="x-content-img1 imgbg17"><div class="x-con">音频</div></div>
+                            <div class="x-content-p">
+                                <div class="book1">
+                                    <h4>亲密而独立——洞悉爱情的20堂心理课</h4>
+                                    <div class="price">
+                                        <span class="p-top">65.00元</span>
+                                        <span class="p-bottom">68.00元</span>
+                                    </div>
+                                </div>
+                                <p class="b-name">主讲人 王浩威</p> 
+                                <p class="b-bottom">探寻关于爱、恋人、亲密关系的相处之道。</p>
+                        </div>
+                </div>                
+        </div>
+        <!-- 过渡图 -->
+        <div class="image1">
+            <img src="img/g1.jpg" alt="">
+        </div>
+        <!-- 文学艺术 -->
+        <div class="wenxue">
+                <p class="xinpin1">文学艺术</p>
+                <span class="chakangengduo">查看更多 ></span>
+                <div class="x-content x-content1">
+                    <div class="x-content-img1 imgbg18"><div class="x-con">音频</div></div>
+                    <div class="x-content-p">
+                        <div class="book1">
+                            <h4>以乐语教国子——叶嘉莹古诗词吟诵课</h4>
+                            <div class="price">
+                                <span class="p-top">99.00元</span>
+                                <span class="p-bottom">128.00元</span>
+                            </div>
+                        </div>
+                        <p class="b-name">主讲人 叶嘉莹</p> 
+                        <p class="b-bottom">中国古典诗词大家叶嘉莹，细析声韵之美，精讲诗词内涵，传承正统诗歌吟诵，感悟诗歌灵魂真味。</p>
+                    </div>
+                </div>
+                <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg19"><div class="x-con">音频</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>回到原典——细节里的中国美术史</h4>
+                                <div class="price">
+                                    <span class="p-top">93.00元</span>
+                                    <span class="p-bottom">98.00元</span>
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 曾孜荣</p> 
+                            <p class="b-bottom">在中国绘画的迷人细节里，发现华夏美学传承千年的秘密……</p>
+                        </div>
+                </div>
+                <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg20"><div class="x-con">视频</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>笔墨的世界——十八个传世碑帖学通书法</h4>
+                                <div class="price">
+                                    <span class="p-top">99.00元</span>
+                                    <span class="p-bottom">168.00元</span>
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 日刻</p> 
+                            <p class="b-bottom">六位当代书法名师，精讲十八种传世碑帖临摹。</p>
+                        </div>
+                    </div>
+                <div class="x-content">
+                            <div class="x-content-img1 imgbg21"><div class="x-con">音频</div></div>
+                            <div class="x-content-p">
+                                <div class="book1">
+                                    <h4>小说课——毕飞宇解读中外经典</h4>
+                                    <div class="price">
+                                        <span class="p-top">124.00元</span>
+                                        <span class="p-bottom">129.00元</span>
+                                    </div>
+                                </div>
+                                <p class="b-name">主讲人 毕飞宇</p> 
+                                <p class="b-bottom">跟毕飞宇探秘经典迷宫，领略文学奥义。古今中外名篇著作，你——这样读过吗？</p>
+                        </div>
+                </div>                
+        </div>
+        <!-- 社科人文 -->
+        <div class="sheke">
+                <p class="xinpin1">社科人文</p>
+                <span class="chakangengduo">查看更多 ></span>
+                <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg22"><div class="x-con">音频</div></div>
+                    <div class="x-content-p">
+                        <div class="book1">
+                            <h4>黑镜人生——网络生活的传播学肖像</h4>
+                            <div class="price">
+                                <span class="p-top">58.00元</span>
+                            </div>
+                        </div>
+                        <p class="b-name">主讲人 董晨宇</p> 
+                        <p class="b-bottom">在虚拟世界中，寻找生活中的真实之物</p>
+                    </div>
+                </div>
+                 <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg23"><div class="x-con">音频</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>哲学闪耀时——不一样的西方哲学史</h4>
+                                <div class="price">
+                                   <span class="p-top">125.00元</span>
+                                    <span class="p-bottom">128.00元</span> 
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 雷思温</p> 
+                            <p class="b-bottom">看顶级哲学家如何拓展人类思维边界</p>
+                        </div>
+                    </div>
+                <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg24"><div class="x-con">音频</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>人类思维简史——精神世界的10次跃迁</h4>
+                                <div class="price">
+                                    <span class="p-top">78.00元</span>
+                                    <span class="p-bottom">88.00元</span>
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 知更社区</p> 
+                            <p class="b-bottom">跨学科的文明史通识课，以最能代表人类智慧的十个基本单元，勾勒出人类思维史上的十次跃迁。</p>
+                        </div>
+                    </div>
+                    <div class="x-content">
+                            <div class="x-content-img1 imgbg25"><div class="x-con">音频</div></div>
+                            <div class="x-content-p">
+                                <div class="book1">
+                                    <h4>古今——杨照史记百讲（增订版）</h4>
+                                    <div class="price">
+                                        <span class="p-top">128.00元</span>
+                                        <span class="p-bottom">168.00元</span>
+                                    </div>
+                                </div>
+                                <p class="b-name">主讲人 杨照</p> 
+                                <p class="b-bottom">经典“摆渡人”杨照通过解读《史记》，带你领略中国的大历史、先民的大智慧，重新理解历史，感受古今之变。</p>
+                            </div>
+                        </div>
+        </div>
+        <div class="image1">
+            <img src="img/h1.jpg" alt="">
+        </div>
+        <!-- 观影指南 -->
+        <div class="guanying">
+            <p class="xinpin1">观影指南</p>
+                <span class="chakangengduo">查看更多 ></span>
+                <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg26"><div class="x-con">音频</div></div>
+                    <div class="x-content-p">
+                        <div class="book1">
+                            <h4>52倍人生——戴锦华大师电影课</h4>
+                            <div class="price">
+                                <span class="p-top">158.00元</span>
+                                <span class="p-bottom">168.00元</span>
+                            </div>
+                        </div>
+                        <p class="b-name">主讲人 戴锦华</p> 
+                        <p class="b-bottom">每周为你深度解析一部世界经典电影。52周全年陪伴你看电影、学电影。</p>
+                    </div>
+                </div>
+                 <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg27"><div class="x-con">图文</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>邪典电影本纪——亚文化电影50讲</h4>
+                                <div class="price">
+                                   <span class="p-top">68.00元</span>
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 常江和先锋电影人们</p> 
+                            <p class="b-bottom">视觉冲击外，探索Cult亚文化的精神内核</p>
+                        </div>
+                    </div>
+                <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg28"><div class="x-con">音频</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>美剧大爆炸——创作、脑洞与文化密码</h4>
+                                <div class="price">
+                                    <span class="p-top">63.00元</span>
+                                    <span class="p-bottom">68.00元</span>
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 常江</p> 
+                            <p class="b-bottom">解码美剧，发现所见之外的现实。我们看剧，更在剧目中看自己、看世界。</p>
+                        </div>
+                    </div>
+                    <div class="x-content">
+                            <div class="x-content-img1 imgbg29"><div class="x-con">音频</div></div>
+                            <div class="x-content-p">
+                                <div class="book1">
+                                    <h4>黑泽明与杨德昌——焦雄屏电影大师手册</h4>
+                                    <div class="price">
+                                        <span class="p-top">68.00元</span>
+                                    </div>
+                                </div>
+                                <p class="b-name">主讲人 焦雄屏</p> 
+                                <p class="b-bottom">透过电影，探寻黑泽明与杨德昌的电影人生。</p>
+                            </div>
+                        </div>
+        </div>
+        <div class="image1">
+                <img src="img/h6.jpg" alt="">
+        </div>
+        <!-- 生活美学 -->
+        <div class="shenghuo">
+                <p class="xinpin1">生活美学</p>
+                <span class="chakangengduo">查看更多 ></span>
+                <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg30"><div class="x-con">视频</div></div>
+                    <div class="x-content-p">
+                        <div class="book1">
+                            <h4>简食知味——20道全生素食料理课</h4>
+                            <div class="price">
+                                <span class="p-top">55.00元</span>
+                                <span class="p-bottom">99.00元</span>
+                            </div>
+                        </div>
+                        <p class="b-name">主讲人 芳芳</p> 
+                        <p class="b-bottom">开启食物对身体和心灵的深度滋养</p>
+                    </div>
+                </div>
+                 <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg31"><div class="x-con">音频</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>一碗茶的款待——日本茶道的形与心</h4>
+                                <div class="price">
+                                   <span class="p-top">98.00元</span>
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 张南揽</p> 
+                            <p class="b-bottom">领略日本文化国粹，东方美学体系之集大成者。回归侘寂美学的原点，在茶的老灵魂里，参透生活真味，观照日常自心。</p>
+                        </div>
+                    </div>
+                <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg32"><div class="x-con">图文</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>拍张好照片——跟七七学生活摄影</h4>
+                                <div class="price">
+                                    <span class="p-top">89.00元</span>
+                                    <span class="p-bottom">99.00元</span>
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 七七</p> 
+                            <p class="b-bottom">爱生活的人都要会拍照，生活摄影拍摄指南，速变摄影达人。</p>
+                        </div>
+                    </div>
+                    <div class="x-content x-content1">
+                            <div class="x-content-img1 imgbg33"><div class="x-con">视频</div></div>
+                            <div class="x-content-p">
+                                <div class="book1">
+                                    <h4>如何读懂美——赤木明登工艺课堂</h4>
+                                    <div class="price">
+                                        <span class="p-top">298.00元</span>
+                                    </div>
+                                </div>
+                                <p class="b-name">主讲人 赤木明登</p> 
+                                <p class="b-bottom">赤木明登带你，回溯器物的原点，探求跨越时空的「美」之本质。</p>
+                            </div>
+                        </div>
+                    <div class="x-content">
+                            <div class="x-content-img1 imgbg34"><div class="x-con">视频</div></div>
+                            <div class="x-content-p">
+                                <div class="book1">
+                                    <h4>花知道答案——中日名师插花课</h4>
+                                    <div class="price">
+                                        <span class="p-top">298.00元</span>
+                                    </div>
+                                </div>
+                                <p class="b-name">主讲人 日刻</p> 
+                                <p class="b-bottom">12位中日名家带你探索东方花道之美</p>
+                            </div>
+                        </div>
+        </div>
+        <!-- 音乐生活 -->
+        <div class="yinyue">
+                <p class="xinpin1">音乐生活</p>
+                <span class="chakangengduo">查看更多 ></span>
+                <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg35"><div class="x-con">音频</div></div>
+                    <div class="x-content-p">
+                        <div class="book1">
+                            <h4>古典音乐的奇幻之旅——从入门到上瘾的108堂课</h4>
+                            <div class="price">
+                                <span class="p-top">121.00元</span>
+                                <span class="p-bottom">128.00元</span>
+                            </div>
+                        </div>
+                        <p class="b-name">主讲人 彭广林</p> 
+                        <p class="b-bottom">台湾东吴大学教授彭广林将古典乐“翻译”给你听。古典音乐不简单，但只要掌握正确的方法，可以轻松听懂。</p>
+                    </div>
+                </div>
+                 <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg36"><div class="x-con">图文</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>民谣与台湾故事——胡德夫的音乐时间</h4>
+                                <div class="price">
+                                   <span class="p-top">128.00元</span>
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 胡德夫</p> 
+                            <p class="b-bottom">关于大地、关于社会与人生、关于民谣与台湾故事，胡德夫用歌声和口述方式的传递给你。</p>
+                        </div>
+                    </div>
+                <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg37"><div class="x-con">视频</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>听！解说式音乐会——古典音乐聆听指南</h4>
+                                <div class="price">
+                                    <span class="p-top">99.00元</span>
+                                    <span class="p-bottom">198.00元</span>
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 彭广林</p> 
+                            <p class="b-bottom">独一无二的音乐普及课</p>
+                        </div>
+                    </div>
+                    <div class="x-content">
+                            <div class="x-content-img1 imgbg38"><div class="x-con">音频</div></div>
+                            <div class="x-content-p">
+                                <div class="book1">
+                                    <h4>歌词时光——姚谦写词课</h4>
+                                    <div class="price">
+                                        <span class="p-top">78.00元</span>
+                                    </div>
+                                </div>
+                                <p class="b-name">主讲人 姚谦</p> 
+                                <p class="b-bottom">重返创作现场，聆听四季留声。</p>
+                            </div>
+                        </div>    
+        </div>
+        <!-- 时间大本营 -->
+        <div class="shijian">
+            <p class="xinpin1">时间大本营</p>
+            <div class="sj-content">
+                <div class="s-image"><img src="img/i5.jpg" alt=""></div>
+                <div class="s-image"><img src="img/i6.jpg" alt=""></div>
+                <div class="s-image"><img src="img/i7.jpg" alt=""></div>
+            </div>
+        </div>
+        <!-- 精品KEY专栏 -->
+        <div class="key">
+                <p class="xinpin1">精品KEY专栏</p>
+                <span class="chakangengduo">查看更多 ></span>
+                <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg39"><div class="x-con">图文</div></div>
+                    <div class="x-content-p">
+                        <div class="book1">
+                            <h4>拍张好照片——10分钟搞定旅行摄影</h4>
+                            <div class="price">
+                                <span class="p-top">9.90元</span>
+                                <span class="p-bottom">29.00元</span>
+                            </div>
+                        </div>
+                        <p class="b-name">主讲人 七七</p> 
+                        <p class="b-bottom">旅行的路上这样拍才够味！这样就能拍出旅行美照！</p>
+                    </div>
+                </div>
+                 <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg40"><div class="x-con">音频</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>笔落惊风雨——你不可不知的中国三大名画</h4>
+                                <div class="price">
+                                    <span class="p-top">9.90元</span>
+                                    <span class="p-bottom">29.00元</span>
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 曾孜荣</p> 
+                            <p class="b-bottom">在中国绘画的迷人细节里，发现华夏美学传承千年的秘密……</p>
+                        </div>
+                    </div>
+                <div class="x-content x-content1">
+                        <div class="x-content-img1 imgbg41"><div class="x-con">音频</div></div>
+                        <div class="x-content-p">
+                            <div class="book1">
+                                <h4>停止无谓忙碌——30分钟解决空虚感的困扰</h4>
+                                <div class="price">
+                                        <span class="p-top">9.90元</span>
+                                        <span class="p-bottom">29.00元</span>
+                                </div>
+                            </div>
+                            <p class="b-name">主讲人 赵嘉路</p> 
+                            <p class="b-bottom">赶走空虚感，走出生活空洞无力的怪圈。</p>
+                        </div>
+                    </div>
+                    <div class="x-content">
+                            <div class="x-content-img1 imgbg42"><div class="x-con">音频</div></div>
+                            <div class="x-content-p">
+                                <div class="book1">
+                                    <h4>喝咖啡时遇见巴赫——听懂“音乐之父”的经典名曲</h4>
+                                    <div class="price">
+                                            <span class="p-top">9.90元</span>
+                                            <span class="p-bottom">29.00元</span>
+                                    </div>
+                                </div>
+                                <p class="b-name">主讲人 彭广林</p> 
+                                <p class="b-bottom">听懂巴赫，把经典“世界名曲”翻译给你听。</p>
+                            </div>
+                        </div>    
+        </div>
+    </div>
+    
+</body>
+</html>
